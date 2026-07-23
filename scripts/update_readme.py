@@ -1,4 +1,57 @@
 #!/usr/bin/env python3
+"""
+update_readme.py  (v2 — auto-fetch edition)
+
+For each .cpp file in the repo, figures out problem metadata with as little
+manual typing as possible, then rebuilds the table in README.md between:
+
+    <!-- SOLUTIONS:START -->
+    <!-- SOLUTIONS:END -->
+
+--------------------------------------------------------------------------
+HOW METADATA IS RESOLVED (checked in this order per file)
+--------------------------------------------------------------------------
+
+1. LEGACY FULL HEADER (manual override) — if the file has a comment block
+   with "Title:", "Platform:", etc. (the old format), those values are used
+   as-is. Useful if you want to hand-correct something.
+
+2. LEETCODE AUTO-FETCH — if the file lives under a top-level folder named
+   "leetcode/" (case-insensitive), the filename (minus .cpp, underscores
+   -> hyphens) is treated as the problem's slug, e.g.:
+
+       leetcode/two_sum.cpp  ->  slug "two-sum"
+                              ->  https://leetcode.com/problems/two-sum/
+
+   The script queries LeetCode's public GraphQL endpoint for the title,
+   difficulty, tags and problem statement — no typing required at all.
+
+3. LIGHTWEIGHT ONE-LINE HEADER — for every other platform (no public API
+   exists for GFG/Codeforces/etc.), add ONE line at the top of the file:
+
+       // Problem: Running GCD Pairing | Platform: GFG | Difficulty: Medium | Link: https://...
+
+   Only Title and Link are required; Platform/Difficulty are optional.
+   The script then asks Claude to read your actual code and write the
+   one-line Summary + Tags for you, so you never type those.
+
+4. FALLBACK — if none of the above is present, the row is filled with
+   filename-derived placeholders so the build never breaks.
+
+--------------------------------------------------------------------------
+CACHING
+--------------------------------------------------------------------------
+Results are cached in scripts/.metadata_cache.json, keyed by file path +
+a hash of its content. Unchanged files are never re-fetched/re-summarized,
+so re-runs are fast and don't burn API calls or tokens.
+
+--------------------------------------------------------------------------
+ENV VARS
+--------------------------------------------------------------------------
+ANTHROPIC_API_KEY   optional. If unset, Claude-generated summaries are
+                     skipped and a naive truncated summary is used instead.
+"""
+
 import hashlib
 import json
 import os
@@ -430,11 +483,24 @@ def generate_table(cache):
 # README rewrite
 # ---------------------------------------------------------------------------
 
+def read_text_safely(path):
+    """Read a text file even if it wasn't saved as plain UTF-8 (e.g. a file
+    saved as UTF-16 by Windows Notepad, or with a UTF-8 BOM). Always returns
+    a str; never raises UnicodeDecodeError."""
+    raw = path.read_bytes()
+    for encoding in ("utf-8", "utf-8-sig", "utf-16"):
+        try:
+            return raw.decode(encoding)
+        except UnicodeDecodeError:
+            continue
+    return raw.decode("utf-8", errors="replace")
+
+
 def update_readme():
     if not README_PATH.exists():
-        README_PATH.write_text(f"# DSA Solutions\n\n{START_MARKER}\n{END_MARKER}\n")
+        README_PATH.write_text(f"# DSA Solutions\n\n{START_MARKER}\n{END_MARKER}\n", encoding="utf-8")
 
-    content = README_PATH.read_text()
+    content = read_text_safely(README_PATH)
     if START_MARKER not in content or END_MARKER not in content:
         print(f"Markers not found in README.md. Add {START_MARKER} / {END_MARKER} and re-run.")
         sys.exit(1)
@@ -448,7 +514,9 @@ def update_readme():
     new_content = pattern.sub(new_block, content)
 
     if new_content != content:
-        README_PATH.write_text(new_content)
+        # Always write back as plain UTF-8 (no BOM), so any weird encoding
+        # the file previously had gets normalized going forward.
+        README_PATH.write_text(new_content, encoding="utf-8")
         print("README.md updated.")
     else:
         print("README.md already up to date.")
