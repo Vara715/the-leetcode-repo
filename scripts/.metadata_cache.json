@@ -1,1 +1,178 @@
-{}
+{
+  "leetcode/asteroid-collision.cpp": {
+    "hash": "63d33f1023bbfc84",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/asteroid-collision/",
+      "Platform": "LeetCode",
+      "Summary": "We are given an array asteroids of integers representing asteroids in a row. The indices of the asteroid in the array represent their relative position in space. For each asteroid, the absolute value represents its\u2026",
+      "Tags": "Array, Stack, Simulation",
+      "Title": "Asteroid Collision"
+    }
+  },
+  "leetcode/best-time-to-buy-and-sell-stock-ii.cpp": {
+    "hash": "86679497cc21ae21",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+      "Platform": "LeetCode",
+      "Summary": "You are given an integer array prices where prices[i] is the price of a given stock on the i th day. On each day, you may decide to buy and/or sell the stock. You can only hold at most one share of the stock at any\u2026",
+      "Tags": "Array, Dynamic Programming, Greedy",
+      "Title": "Best Time to Buy and Sell Stock II"
+    }
+  },
+  "leetcode/best-time-to-buy-and-sell-stock-iii.cpp": {
+    "hash": "df1450088900ef7c",
+    "meta": {
+      "Difficulty": "Hard",
+      "Link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/",
+      "Platform": "LeetCode",
+      "Summary": "You are given an array prices where prices[i] is the price of a given stock on the i th day. Find the maximum profit you can achieve. You may complete at most two transactions . Note: You may not engage in multiple\u2026",
+      "Tags": "Array, Dynamic Programming",
+      "Title": "Best Time to Buy and Sell Stock III"
+    }
+  },
+  "leetcode/best-time-to-buy-and-sell-stock-iv.cpp": {
+    "hash": "7ba136df5e61df90",
+    "meta": {
+      "Difficulty": "Hard",
+      "Link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
+      "Platform": "LeetCode",
+      "Summary": "You are given an integer array prices where prices[i] is the price of a given stock on the i th day, and an integer k . Find the maximum profit you can achieve. You may complete at most k transactions: i.e. you may buy\u2026",
+      "Tags": "Array, Dynamic Programming",
+      "Title": "Best Time to Buy and Sell Stock IV"
+    }
+  },
+  "leetcode/best-time-to-buy-and-sell-stock-with-cooldown.cpp": {
+    "hash": "d7fd23d2d14026bd",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
+      "Platform": "LeetCode",
+      "Summary": "You are given an array prices where prices[i] is the price of a given stock on the i th day. Find the maximum profit you can achieve. You may complete as many transactions as you like (i.e., buy one and sell one share\u2026",
+      "Tags": "Array, Dynamic Programming",
+      "Title": "Best Time to Buy and Sell Stock with Cooldown"
+    }
+  },
+  "leetcode/can-place-flowers.cpp": {
+    "hash": "ac2030bb48909687",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/can-place-flowers/",
+      "Platform": "LeetCode",
+      "Summary": "You have a long flowerbed in which some of the plots are planted, and some are not. However, flowers cannot be planted in adjacent plots. Given an integer array flowerbed containing 0 &#39;s and 1 &#39;s, where 0 means\u2026",
+      "Tags": "Array, Greedy",
+      "Title": "Can Place Flowers"
+    }
+  },
+  "leetcode/find-greatest-common-divisor-of-array.cpp": {
+    "hash": "add61fa188bb957c",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/find-greatest-common-divisor-of-array/",
+      "Platform": "LeetCode",
+      "Summary": "Given an integer array nums , return the greatest common divisor of the smallest number and largest number in nums . The greatest common divisor of two numbers is the largest positive integer that evenly divides both\u2026",
+      "Tags": "Array, Math, Number Theory",
+      "Title": "Find Greatest Common Divisor of Array"
+    }
+  },
+  "leetcode/find-pivot-index.cpp": {
+    "hash": "cfcf93ee7ed6d209",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/find-pivot-index/",
+      "Platform": "LeetCode",
+      "Summary": "Given an array of integers nums , calculate the pivot index of this array. The pivot index is the index where the sum of all the numbers strictly to the left of the index is equal to the sum of all the numbers strictly\u2026",
+      "Tags": "Array, Prefix Sum",
+      "Title": "Find Pivot Index"
+    }
+  },
+  "leetcode/find-the-difference-of-two-arrays.cpp": {
+    "hash": "bd5a8e120b8065ea",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/find-the-difference-of-two-arrays/",
+      "Platform": "LeetCode",
+      "Summary": "Given two 0-indexed integer arrays nums1 and nums2 , return a list answer of size 2 where: answer[0] is a list of all distinct integers in nums1 which are not present in nums2 . answer[1] is a list of all distinct\u2026",
+      "Tags": "Array, Hash Table",
+      "Title": "Find the Difference of Two Arrays"
+    }
+  },
+  "leetcode/find-the-highest-altitude.cpp": {
+    "hash": "656ce78e642e83b4",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/find-the-highest-altitude/",
+      "Platform": "LeetCode",
+      "Summary": "There is a biker going on a road trip. The road trip consists of n + 1 points at various altitudes. The biker starts his trip on point 0 with altitude equal 0 . You are given an integer array gain of length n where\u2026",
+      "Tags": "Array, Prefix Sum",
+      "Title": "Find the Highest Altitude"
+    }
+  },
+  "leetcode/gcd-of-odd-and-even-sums.cpp": {
+    "hash": "f0dc90dc8a885787",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/gcd-of-odd-and-even-sums/",
+      "Platform": "LeetCode",
+      "Summary": "You are given an integer n . Your task is to compute the GCD (greatest common divisor) of two values: sumOdd : the sum of the smallest n positive odd numbers. sumEven : the sum of the smallest n positive even numbers.\u2026",
+      "Tags": "Math, Number Theory",
+      "Title": "GCD of Odd and Even Sums"
+    }
+  },
+  "leetcode/lru-cache.cpp": {
+    "hash": "1893ede74326386f",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/lru-cache/",
+      "Platform": "LeetCode",
+      "Summary": "Design a data structure that follows the constraints of a Least Recently Used (LRU) cache . Implement the LRUCache class: LRUCache(int capacity) Initialize the LRU cache with positive size capacity . int get(int key)\u2026",
+      "Tags": "Hash Table, Linked List, Design, Doubly-Linked List",
+      "Title": "LRU Cache"
+    }
+  },
+  "leetcode/minimum-total-cost-to-process-all-elements.cpp": {
+    "hash": "bdeca704f3688b60",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/minimum-total-cost-to-process-all-elements/",
+      "Platform": "LeetCode",
+      "Summary": "You are given an integer array nums and an integer k . Initially, you have k units of resources. You must process the elements of nums from left to right. To process the i th element, you need nums[i] resources. If your\u2026",
+      "Tags": "",
+      "Title": "Minimum Total Cost to Process All Elements"
+    }
+  },
+  "leetcode/sequential-digits.cpp": {
+    "hash": "c6b125657318b691",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/sequential-digits/",
+      "Platform": "LeetCode",
+      "Summary": "An integer has sequential digits if and only if each digit in the number is one more than the previous digit. Return a sorted list of all the integers in the range [low, high] inclusive that have sequential digits.\u2026",
+      "Tags": "Enumeration",
+      "Title": "Sequential Digits"
+    }
+  },
+  "leetcode/string-compression.cpp": {
+    "hash": "763694c830e92dcc",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/string-compression/",
+      "Platform": "LeetCode",
+      "Summary": "Given an array of characters chars , compress it using the following algorithm: Begin with an empty string s . For each group of consecutive repeating characters in chars : If the group&#39;s length is 1 , append the\u2026",
+      "Tags": "Two Pointers, String",
+      "Title": "String Compression"
+    }
+  },
+  "leetcode/sum-of-gcd-of-formed-pairs.cpp": {
+    "hash": "e406cd4d161f1640",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/",
+      "Platform": "LeetCode",
+      "Summary": "You are given an integer array nums of length n . Construct an array prefixGcd where for each index i : Let mx i = max(nums[0], nums[1], ..., nums[i]) . prefixGcd[i] = gcd(nums[i], mx i ) . After constructing prefixGcd\u2026",
+      "Tags": "Array, Math, Two Pointers, Sorting, Simulation, Number Theory",
+      "Title": "Sum of GCD of Formed Pairs"
+    }
+  }
+}
