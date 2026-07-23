@@ -1,0 +1,40 @@
+name: Update README with new solutions
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**/*.cpp"
+      - "scripts/update_readme.py"
+
+# Lets the workflow push its own commit back to the repo
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history so git log --format=%ct works per-file
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run README updater
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python scripts/update_readme.py
+
+      - name: Commit changes if README updated
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md scripts/.metadata_cache.json
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "chore: auto-update README with new solution(s)"
+          git push
