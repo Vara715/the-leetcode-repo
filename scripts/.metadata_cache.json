@@ -120,6 +120,17 @@
       "Title": "GCD of Odd and Even Sums"
     }
   },
+  "leetcode/house-robber-ii.cpp": {
+    "hash": "efaf881edd31dfc0",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/house-robber-ii/",
+      "Platform": "LeetCode",
+      "Summary": "You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed. All houses at this place are arranged in a circle. That means the first house is the neighbor of the\u2026",
+      "Tags": "Array, Dynamic Programming",
+      "Title": "House Robber II"
+    }
+  },
   "leetcode/lru-cache.cpp": {
     "hash": "1893ede74326386f",
     "meta": {
