@@ -1,57 +1,3 @@
-#!/usr/bin/env python3
-"""
-update_readme.py  (v2 — auto-fetch edition)
-
-For each .cpp file in the repo, figures out problem metadata with as little
-manual typing as possible, then rebuilds the table in README.md between:
-
-    <!-- SOLUTIONS:START -->
-    <!-- SOLUTIONS:END -->
-
---------------------------------------------------------------------------
-HOW METADATA IS RESOLVED (checked in this order per file)
---------------------------------------------------------------------------
-
-1. LEGACY FULL HEADER (manual override) — if the file has a comment block
-   with "Title:", "Platform:", etc. (the old format), those values are used
-   as-is. Useful if you want to hand-correct something.
-
-2. LEETCODE AUTO-FETCH — if the file lives under a top-level folder named
-   "leetcode/" (case-insensitive), the filename (minus .cpp, underscores
-   -> hyphens) is treated as the problem's slug, e.g.:
-
-       leetcode/two_sum.cpp  ->  slug "two-sum"
-                              ->  https://leetcode.com/problems/two-sum/
-
-   The script queries LeetCode's public GraphQL endpoint for the title,
-   difficulty, tags and problem statement — no typing required at all.
-
-3. LIGHTWEIGHT ONE-LINE HEADER — for every other platform (no public API
-   exists for GFG/Codeforces/etc.), add ONE line at the top of the file:
-
-       // Problem: Running GCD Pairing | Platform: GFG | Difficulty: Medium | Link: https://...
-
-   Only Title and Link are required; Platform/Difficulty are optional.
-   The script then asks Claude to read your actual code and write the
-   one-line Summary + Tags for you, so you never type those.
-
-4. FALLBACK — if none of the above is present, the row is filled with
-   filename-derived placeholders so the build never breaks.
-
---------------------------------------------------------------------------
-CACHING
---------------------------------------------------------------------------
-Results are cached in scripts/.metadata_cache.json, keyed by file path +
-a hash of its content. Unchanged files are never re-fetched/re-summarized,
-so re-runs are fast and don't burn API calls or tokens.
-
---------------------------------------------------------------------------
-ENV VARS
---------------------------------------------------------------------------
-ANTHROPIC_API_KEY   optional. If unset, Claude-generated summaries are
-                     skipped and a naive truncated summary is used instead.
-"""
-
 import hashlib
 import json
 import os
@@ -101,6 +47,23 @@ def save_cache(cache):
 
 def content_hash(text):
     return hashlib.sha256(text.encode("utf-8", errors="ignore")).hexdigest()[:16]
+
+
+SYNC_STATE_PATH = Path(__file__).resolve().parent / ".leetcode_sync_state.json"
+
+
+def load_solved_timestamps():
+    """slug -> unix timestamp (int), as recorded by leetcode_sync.py from
+    LeetCode's own submission timestamp. Used to sort the README by when a
+    problem was actually solved, rather than by git commit date (which is
+    identical for every file synced in the same run)."""
+    if not SYNC_STATE_PATH.exists():
+        return {}
+    try:
+        state = json.loads(SYNC_STATE_PATH.read_text())
+        return {slug: int(ts) for slug, ts in state.get("solved_timestamps", {}).items()}
+    except Exception:
+        return {}
 
 
 # ---------------------------------------------------------------------------
@@ -434,6 +397,7 @@ def generate_table(cache):
     rows = []
     updated_cache = dict(cache)
     seen_content = {}  # content hash -> first file path that had it
+    solved_timestamps = load_solved_timestamps()
 
     for path in sorted(find_cpp_files()):
         text = path.read_text(errors="ignore")
@@ -464,7 +428,15 @@ def generate_table(cache):
             meta = resolve_metadata(path, text, rel_path)
             updated_cache[key] = {"hash": h, "meta": meta}
 
-        rows.append((git_commit_date(path), rel_path, meta))
+        # Prefer the real LeetCode solve timestamp (accurate even when many
+        # files land in the same git commit). Fall back to git commit date
+        # for manually-added files on other platforms.
+        slug = path.stem
+        sort_ts = solved_timestamps.get(slug) if top_folder == "leetcode" else None
+        if sort_ts is None:
+            sort_ts = git_commit_date(path)
+
+        rows.append((sort_ts, rel_path, meta))
 
     rows.sort(key=lambda r: r[0], reverse=True)
 

@@ -1,48 +1,3 @@
-#!/usr/bin/env python3
-"""
-leetcode_sync.py
-
-Checks your recent LeetCode "Accepted" submissions and, for any not yet
-synced, fetches the actual submitted code and writes it into
-leetcode/<slug>.<ext>.
-
---------------------------------------------------------------------------
-REQUIRED ENV VARS
---------------------------------------------------------------------------
-LEETCODE_USERNAME     your LeetCode username (public info)
-LEETCODE_SESSION      value of the LEETCODE_SESSION cookie (PRIVATE — this
-                       is effectively your login session for the duration
-                       it's valid)
-LEETCODE_CSRF_TOKEN   value of the csrftoken cookie (PRIVATE)
-
-How to get the session/csrf values:
-    1. Log into leetcode.com in your browser.
-    2. Open DevTools -> Application (Chrome) / Storage (Firefox) -> Cookies
-       -> https://leetcode.com
-    3. Copy the values of "LEETCODE_SESSION" and "csrftoken".
-    4. Add them as GitHub repo secrets (Settings -> Secrets and variables ->
-       Actions -> New repository secret).
-
-These expire periodically (usually a few weeks) — if syncing silently stops
-producing new files, refresh both secrets the same way.
-
---------------------------------------------------------------------------
-WHY TWO API CALLS
---------------------------------------------------------------------------
-recentAcSubmissionList is public (just needs a username) and tells us WHICH
-problems were recently solved. submissionDetails is private (needs your
-session) and is the only way to get the actual CODE you submitted. LeetCode
-doesn't expose submitted code publicly for privacy reasons, so there's no
-way to get the code without authenticating as you.
-
---------------------------------------------------------------------------
-STATE
---------------------------------------------------------------------------
-Already-synced submission IDs are tracked in
-scripts/.leetcode_sync_state.json so re-runs don't re-fetch/re-write files
-that are already in the repo.
-"""
-
 import json
 import os
 import urllib.request
@@ -180,8 +135,9 @@ def write_solution_file(slug, lang_name, code):
 def sync():
     state = load_state()
     synced_ids = set(state.get("synced_ids", []))
+    solved_timestamps = state.get("solved_timestamps", {})  # slug -> unix timestamp (str)
 
-    submissions = fetch_recent_accepted(limit=20)
+    submissions = fetch_recent_accepted(limit=60)
     if not submissions:
         print("No recent accepted submissions found (or fetch failed).")
         return
@@ -189,10 +145,21 @@ def sync():
     new_count = 0
     for sub in submissions:
         sub_id = str(sub.get("id"))
+        slug = sub.get("titleSlug")
+        timestamp = sub.get("timestamp")
+
+        # Always keep the freshest known timestamp for this slug, even if
+        # this particular submission id was already synced before (e.g. a
+        # re-submission of the same problem) — the README should reflect
+        # when you MOST RECENTLY solved it, not just first-sync order.
+        if slug and timestamp:
+            existing = solved_timestamps.get(slug)
+            if existing is None or int(timestamp) > int(existing):
+                solved_timestamps[slug] = str(timestamp)
+
         if sub_id in synced_ids:
             continue
 
-        slug = sub.get("titleSlug")
         print(f"[new] {sub.get('title')} (id={sub_id}, slug={slug})")
 
         details = fetch_submission_code(sub_id)
@@ -211,6 +178,7 @@ def sync():
         new_count += 1
 
     state["synced_ids"] = sorted(synced_ids)
+    state["solved_timestamps"] = solved_timestamps
     save_state(state)
     print(f"Sync complete. {new_count} new solution(s) written.")
 
