@@ -42,5 +42,26 @@
     "2102227832",
     "2104116514",
     "2104138726"
-  ]
+  ],
+  "solved_timestamps": {
+    "best-time-to-buy-and-sell-stock-ii": "1786536502",
+    "wildcard-matching": "1786534924",
+    "edit-distance": "1786419625",
+    "distinct-subsequences": "1786360867",
+    "shortest-common-supersequence": "1786189055",
+    "find-peak-element": "1786074472",
+    "delete-operation-for-two-strings": "1785921152",
+    "minimum-insertion-steps-to-make-a-string-palindrome": "1785920491",
+    "longest-palindromic-subsequence": "1785918904",
+    "stone-game": "1785857249",
+    "find-missing-elements": "1785826751",
+    "smallest-number-in-infinite-set": "1785760007",
+    "successful-pairs-of-spells-and-potions": "1785759366",
+    "keys-and-rooms": "1785737302",
+    "longest-zigzag-path-in-a-binary-tree": "1785735348",
+    "path-sum-iii": "1785680934",
+    "maximum-twin-sum-of-a-linked-list": "1785478523",
+    "count-good-nodes-in-binary-tree": "1785382692",
+    "search-in-a-binary-search-tree": "1785382284"
+  }
 }
