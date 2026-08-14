@@ -2,12 +2,8 @@
 
 A self-updating GitHub repository: solve a problem on LeetCode, and a scheduled bot pulls your accepted solution, writes it into the repo, and regenerates a live README table — automatically, with no manual git work for LeetCode solves.
 
-<!--
-  Replace <username>/<repo> below with your actual GitHub path once forked,
-  so these badges reflect YOUR workflow runs, not the original repo's.
--->
-![LeetCode Sync](https://github.com/<username>/<repo>/actions/workflows/leetcode-sync.yml/badge.svg)
-![Update README](https://github.com/<username>/<repo>/actions/workflows/update-readme.yml/badge.svg)
+![LeetCode Sync](https://github.com/Vara715/the-leetcode-repo/actions/workflows/leetcode-sync.yml/badge.svg)
+![Update README](https://github.com/Vara715/the-leetcode-repo/actions/workflows/update-readme.yml/badge.svg)
 ![Python](https://img.shields.io/badge/python-3.11-blue?logo=python&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/automation-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
@@ -130,6 +126,3 @@ Worth knowing before you rely on this:
 - **Session cookies expire** every few weeks. When they do, the sync step logs `session may be expired or invalid` and skips fetching new code until you refresh the secrets — it won't lose data, just pause.
 - **Only your last ~20–60 accepted submissions are checked per run** (configurable), so a long gap without running the workflow could miss older solves falling out of that window.
 
-## Further Reading
-
-See [`DOCS.md`](./DOCS.md) for a detailed setup/troubleshooting log, including real bugs hit while building this and how they were diagnosed and fixed.
