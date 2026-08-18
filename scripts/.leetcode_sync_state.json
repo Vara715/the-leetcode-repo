@@ -41,7 +41,8 @@
     "2101455182",
     "2102227832",
     "2104116514",
-    "2104138726"
+    "2104138726",
+    "2109914398"
   ],
   "solved_timestamps": {
     "best-time-to-buy-and-sell-stock-ii": "1786536502",
@@ -62,6 +63,7 @@
     "path-sum-iii": "1785680934",
     "maximum-twin-sum-of-a-linked-list": "1785478523",
     "count-good-nodes-in-binary-tree": "1785382692",
-    "search-in-a-binary-search-tree": "1785382284"
+    "search-in-a-binary-search-tree": "1785382284",
+    "find-the-index-of-the-first-occurrence-in-a-string": "1786957095"
   }
 }
