@@ -76,6 +76,17 @@
       "Title": "Count Good Nodes in Binary Tree"
     }
   },
+  "leetcode/decode-ways.cpp": {
+    "hash": "c4f303afca1274c4",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/decode-ways/",
+      "Platform": "LeetCode",
+      "Summary": "You have intercepted a secret message encoded as a string of numbers. The message is decoded via the following mapping: 1 - &#39;A&#39; 2 - &#39;B&#39; ... 25 - &#39;Y&#39; 26 - &#39;Z&#39; However, while decoding the\u2026",
+      "Tags": "String, Dynamic Programming",
+      "Title": "Decode Ways"
+    }
+  },
   "leetcode/delete-operation-for-two-strings.cpp": {
     "hash": "46ac2a3dccb49c5d",
     "meta": {
@@ -184,6 +195,17 @@
       "Summary": "Given two strings needle and haystack , return the index of the first occurrence of needle in haystack , or -1 if needle is not part of haystack . Example 1: Input: haystack = sadbutsad , needle = sad Output: 0\u2026",
       "Tags": "Two Pointers, String, String Matching, Z Algorithm, Knuth\u2013Morris\u2013Pratt Algorithm, Boyer\u2013Moore String-Search Algorithm",
       "Title": "Find the Index of the First Occurrence in a String"
+    }
+  },
+  "leetcode/find-the-largest-almost-missing-integer.cpp": {
+    "hash": "dc2a23d5c1d22de7",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/find-the-largest-almost-missing-integer/",
+      "Platform": "LeetCode",
+      "Summary": "You are given an integer array nums and an integer k . An integer x is almost missing from nums if x appears in exactly one subarray of size k within nums . Return the largest almost missing integer from nums . If no\u2026",
+      "Tags": "Array, Hash Table",
+      "Title": "Find the Largest Almost Missing Integer"
     }
   },
   "leetcode/gcd-of-odd-and-even-sums.cpp": {
