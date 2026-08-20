@@ -219,6 +219,17 @@
       "Title": "GCD of Odd and Even Sums"
     }
   },
+  "leetcode/greatest-common-divisor-of-strings.cpp": {
+    "hash": "8fbe278045226622",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/greatest-common-divisor-of-strings/",
+      "Platform": "LeetCode",
+      "Summary": "For two strings s and t , we say t divides s if and only if s = t + t + t + ... + t + t (i.e., t is concatenated with itself one or more times). Given two strings str1 and str2 , return the largest string x such that x\u2026",
+      "Tags": "Math, String, Euclidean Algorithm, Greatest Common Divisor",
+      "Title": "Greatest Common Divisor of Strings"
+    }
+  },
   "leetcode/house-robber-ii.cpp": {
     "hash": "efaf881edd31dfc0",
     "meta": {
