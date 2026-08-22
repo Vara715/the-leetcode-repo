@@ -16,6 +16,15 @@ START_MARKER = "<!-- SOLUTIONS:START -->"
 END_MARKER = "<!-- SOLUTIONS:END -->"
 
 SKIP_DIRS = {".git", ".github", "scripts", "node_modules"}
+
+# Every extension leetcode_sync.py's LANG_EXT map can produce, plus common
+# manually-added languages. Deliberately excludes .txt — an unrecognized
+# submission language falling back to .txt is a signal something needs a
+# LANG_EXT entry, not something that should silently start appearing here.
+SOLUTION_EXTENSIONS = {
+    "cpp", "c", "py", "java", "js", "ts", "cs", "go", "kt", "swift",
+    "rs", "rb", "scala", "php", "sql",
+}
 FIELD_ORDER = ["Title", "Platform", "Difficulty", "Link", "Tags", "Summary"]
 FIELD_RE = re.compile(r"^\s*\*\s*(\w[\w ]*?):\s*(.*)$")
 
@@ -75,7 +84,7 @@ def find_cpp_files():
     for dirpath, dirnames, filenames in os.walk(REPO_ROOT):
         dirnames[:] = [d for d in dirnames if d not in SKIP_DIRS and not d.startswith(".")]
         for fname in filenames:
-            if fname.endswith(".cpp"):
+            if any(fname.endswith(f".{ext}") for ext in SOLUTION_EXTENSIONS):
                 files.append(Path(dirpath) / fname)
     return files
 

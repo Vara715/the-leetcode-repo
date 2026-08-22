@@ -24,6 +24,8 @@ LANG_EXT = {
     "javascript": "js", "typescript": "ts", "csharp": "cs", "golang": "go",
     "kotlin": "kt", "swift": "swift", "rust": "rs", "ruby": "rb",
     "scala": "scala", "php": "php",
+    "mysql": "sql", "mssql": "sql", "oraclesql": "sql", "postgresql": "sql",
+    "pythondata": "py", "pandas": "py",
 }
 
 RECENT_AC_QUERY = """
