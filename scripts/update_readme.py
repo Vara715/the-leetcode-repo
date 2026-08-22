@@ -154,6 +154,17 @@ def strip_html(html):
     return text
 
 
+def extract_description_text(html):
+    """Like strip_html, but first drops <pre>...</pre> blocks — on LeetCode
+    these hold schema tables, examples, and sample I/O, not the actual
+    question description. Left in, they dominate both the naive-truncation
+    fallback and the AI summarization prompt (e.g. a database problem's
+    summary becomes 'Table: Customer +---+...' instead of an actual
+    sentence)."""
+    without_pre = re.sub(r"<pre>.*?</pre>", " ", html or "", flags=re.DOTALL)
+    return strip_html(without_pre)
+
+
 def fetch_leetcode_metadata(slug):
     payload = json.dumps({
         "query": LEETCODE_QUERY,
@@ -197,7 +208,9 @@ def fetch_leetcode_metadata(slug):
         print(f"  [leetcode] no question found for slug '{slug}'")
         return None
 
-    plain = strip_html(q.get("content", ""))
+    plain = extract_description_text(q.get("content", ""))
+    if not plain:  # entire description was inside <pre> — fall back rather than show nothing
+        plain = strip_html(q.get("content", ""))
     naive_summary = plain[:220].rsplit(" ", 1)[0] + "…" if len(plain) > 220 else plain
 
     return {
