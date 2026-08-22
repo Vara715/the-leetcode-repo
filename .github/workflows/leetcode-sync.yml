@@ -42,4 +42,13 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add leetcode README.md scripts/.metadata_cache.json scripts/.leetcode_sync_state.json
           git diff --cached --quiet && echo "No changes to commit" || git commit -m "chore: sync new LeetCode solutions"
-          git push
+
+          # If someone pushed to main while this job was running, retry once
+          # with a rebase instead of failing the whole run outright.
+          for attempt in 1 2; do
+            if git push; then
+              break
+            fi
+            echo "Push rejected (attempt $attempt) — pulling and retrying..."
+            git pull --rebase origin main
+          done

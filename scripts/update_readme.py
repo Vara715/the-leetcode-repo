@@ -34,7 +34,7 @@ ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 ANTHROPIC_MODEL = "claude-haiku-4-5-20251001"  # fast + cheap, good enough for a one-liner
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
-GROQ_MODEL = "llama-3.3-70b-versatile"  # free tier, OpenAI-compatible endpoint
+GROQ_MODEL = "openai/gpt-oss-20b"  # llama-3.3-70b-versatile was deprecated June 2026
 
 
 # ---------------------------------------------------------------------------

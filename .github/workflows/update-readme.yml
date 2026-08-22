@@ -5,6 +5,20 @@ on:
     branches: [main]
     paths:
       - "**/*.cpp"
+      - "**/*.c"
+      - "**/*.py"
+      - "**/*.java"
+      - "**/*.js"
+      - "**/*.ts"
+      - "**/*.cs"
+      - "**/*.go"
+      - "**/*.kt"
+      - "**/*.swift"
+      - "**/*.rs"
+      - "**/*.rb"
+      - "**/*.scala"
+      - "**/*.php"
+      - "**/*.sql"
       - "scripts/update_readme.py"
 
 # Lets the workflow push its own commit back to the repo
@@ -37,4 +51,11 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md scripts/.metadata_cache.json
           git diff --cached --quiet && echo "No changes to commit" || git commit -m "chore: auto-update README with new solution(s)"
-          git push
+
+          for attempt in 1 2; do
+            if git push; then
+              break
+            fi
+            echo "Push rejected (attempt $attempt) — pulling and retrying..."
+            git pull --rebase origin main
+          done
