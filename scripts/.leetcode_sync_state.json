@@ -46,7 +46,17 @@
     "2111167349",
     "2111593899",
     "2112976717",
-    "2113579140"
+    "2113579140",
+    "2115731849",
+    "2115738718",
+    "2115740913",
+    "2115745211",
+    "2115748238",
+    "2115753677",
+    "2115764167",
+    "2115764511",
+    "2115764751",
+    "2115773305"
   ],
   "solved_timestamps": {
     "best-time-to-buy-and-sell-stock-ii": "1786536502",
@@ -72,6 +82,14 @@
     "find-the-largest-almost-missing-integer": "1787066188",
     "decode-ways": "1787042957",
     "greatest-common-divisor-of-strings": "1787158252",
-    "distribute-elements-into-two-arrays-i": "1787207794"
+    "distribute-elements-into-two-arrays-i": "1787207794",
+    "check-divisibility-by-digit-sum-and-product": "1787378944",
+    "find-customer-referee": "1787378473",
+    "not-boring-movies": "1787378460",
+    "employees-earning-more-than-their-managers": "1787378440",
+    "invalid-tweets": "1787377514",
+    "article-views-i": "1787377332",
+    "big-countries": "1787377063",
+    "recyclable-and-low-fat-products": "1787376504"
   }
 }

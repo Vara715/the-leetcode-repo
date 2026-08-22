@@ -1,4 +1,15 @@
 {
+  "leetcode/article-views-i.sql": {
+    "hash": "a7d63109e5219d97",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/article-views-i/",
+      "Platform": "LeetCode",
+      "Summary": "Table: Views +---------------+---------+ | Column Name | Type | +---------------+---------+ | article_id | int | | author_id | int | | viewer_id | int | | view_date | date | +---------------+---------+ There is no\u2026",
+      "Tags": "Database",
+      "Title": "Article Views I"
+    }
+  },
   "leetcode/asteroid-collision.cpp": {
     "hash": "63d33f1023bbfc84",
     "meta": {
@@ -54,6 +65,17 @@
       "Title": "Best Time to Buy and Sell Stock with Cooldown"
     }
   },
+  "leetcode/big-countries.sql": {
+    "hash": "1a2d995f2547eb85",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/big-countries/",
+      "Platform": "LeetCode",
+      "Summary": "Table: World +-------------+---------+ | Column Name | Type | +-------------+---------+ | name | varchar | | continent | varchar | | area | int | | population | int | | gdp | bigint | +-------------+---------+ name is\u2026",
+      "Tags": "Database",
+      "Title": "Big Countries"
+    }
+  },
   "leetcode/can-place-flowers.cpp": {
     "hash": "ac2030bb48909687",
     "meta": {
@@ -63,6 +85,17 @@
       "Summary": "You have a long flowerbed in which some of the plots are planted, and some are not. However, flowers cannot be planted in adjacent plots. Given an integer array flowerbed containing 0 &#39;s and 1 &#39;s, where 0 means\u2026",
       "Tags": "Array, Greedy",
       "Title": "Can Place Flowers"
+    }
+  },
+  "leetcode/check-divisibility-by-digit-sum-and-product.cpp": {
+    "hash": "51b81b66a034bd67",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/",
+      "Platform": "LeetCode",
+      "Summary": "You are given a positive integer n . Determine whether n is divisible by the sum of the following two values: The digit sum of n (the sum of its digits). The digit product of n (the product of its digits). Return true\u2026",
+      "Tags": "Math",
+      "Title": "Check Divisibility by Digit Sum and Product"
     }
   },
   "leetcode/combine-two-tables.sql": {
@@ -140,6 +173,28 @@
       "Summary": "Given two strings word1 and word2 , return the minimum number of operations required to convert word1 to word2 . You have the following three operations permitted on a word: Insert a character Delete a character Replace\u2026",
       "Tags": "String, Dynamic Programming",
       "Title": "Edit Distance"
+    }
+  },
+  "leetcode/employees-earning-more-than-their-managers.sql": {
+    "hash": "357f25bcd6247f6e",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/employees-earning-more-than-their-managers/",
+      "Platform": "LeetCode",
+      "Summary": "Table: Employee +-------------+---------+ | Column Name | Type | +-------------+---------+ | id | int | | name | varchar | | salary | int | | managerId | int | +-------------+---------+ id is the primary key (column\u2026",
+      "Tags": "Database",
+      "Title": "Employees Earning More Than Their Managers"
+    }
+  },
+  "leetcode/find-customer-referee.sql": {
+    "hash": "62618113ecbc9977",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/find-customer-referee/",
+      "Platform": "LeetCode",
+      "Summary": "Table: Customer +-------------+---------+ | Column Name | Type | +-------------+---------+ | id | int | | name | varchar | | referee_id | int | +-------------+---------+ In SQL, id is the primary key column for this\u2026",
+      "Tags": "Database",
+      "Title": "Find Customer Referee"
     }
   },
   "leetcode/find-greatest-common-divisor-of-array.cpp": {
@@ -263,6 +318,17 @@
       "Title": "House Robber II"
     }
   },
+  "leetcode/invalid-tweets.sql": {
+    "hash": "a3e086bfb5ae249c",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/invalid-tweets/",
+      "Platform": "LeetCode",
+      "Summary": "Table: Tweets +----------------+---------+ | Column Name | Type | +----------------+---------+ | tweet_id | int | | content | varchar | +----------------+---------+ tweet_id is the primary key (column with unique\u2026",
+      "Tags": "Database",
+      "Title": "Invalid Tweets"
+    }
+  },
   "leetcode/keys-and-rooms.cpp": {
     "hash": "6beb07cd1286555e",
     "meta": {
@@ -340,6 +406,17 @@
       "Title": "Minimum Total Cost to Process All Elements"
     }
   },
+  "leetcode/not-boring-movies.sql": {
+    "hash": "8eb806072fa1bbfd",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/not-boring-movies/",
+      "Platform": "LeetCode",
+      "Summary": "Table: Cinema +----------------+----------+ | Column Name | Type | +----------------+----------+ | id | int | | movie | varchar | | description | varchar | | rating | float | +----------------+----------+ id is the\u2026",
+      "Tags": "Database",
+      "Title": "Not Boring Movies"
+    }
+  },
   "leetcode/path-sum-iii.cpp": {
     "hash": "c95797106cdbf331",
     "meta": {
@@ -349,6 +426,17 @@
       "Summary": "Given the root of a binary tree and an integer targetSum , return the number of paths where the sum of the values along the path equals targetSum . The path does not need to start or end at the root or a leaf, but it\u2026",
       "Tags": "Tree, Depth-First Search, Binary Tree",
       "Title": "Path Sum III"
+    }
+  },
+  "leetcode/recyclable-and-low-fat-products.sql": {
+    "hash": "92bd494249242a05",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/recyclable-and-low-fat-products/",
+      "Platform": "LeetCode",
+      "Summary": "Table: Products +-------------+---------+ | Column Name | Type | +-------------+---------+ | product_id | int | | low_fats | enum | | recyclable | enum | +-------------+---------+ product_id is the primary key (column\u2026",
+      "Tags": "Database",
+      "Title": "Recyclable and Low Fat Products"
     }
   },
   "leetcode/reverse-vowels-of-a-string.py": {
