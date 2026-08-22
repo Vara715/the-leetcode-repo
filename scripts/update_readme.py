@@ -292,6 +292,13 @@ def _call_groq(prompt, max_tokens):
         headers={
             "Content-Type": "application/json",
             "Authorization": f"Bearer {GROQ_API_KEY}",
+            # Groq's API sits behind Cloudflare, which returns a 403 for the
+            # default "Python-urllib/3.x" User-Agent — same fix as the
+            # LeetCode requests elsewhere in this file.
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+            ),
         },
     )
     with urllib.request.urlopen(req, timeout=30) as resp:
@@ -306,16 +313,30 @@ def claude_generate(prompt, max_tokens=200):
     if ANTHROPIC_API_KEY:
         try:
             return _call_anthropic(prompt, max_tokens)
+        except urllib.error.HTTPError as e:
+            body = _read_error_body(e)
+            print(f"  [anthropic] HTTP {e.code}, trying Groq if available: {body}")
         except Exception as e:
             print(f"  [anthropic] generation failed, trying Groq if available: {e}")
 
     if GROQ_API_KEY:
         try:
             return _call_groq(prompt, max_tokens)
+        except urllib.error.HTTPError as e:
+            body = _read_error_body(e)
+            print(f"  [groq] HTTP {e.code}: {body}")
         except Exception as e:
             print(f"  [groq] generation failed: {e}")
 
     return None
+
+
+def _read_error_body(http_error, limit=300):
+    try:
+        return http_error.read().decode("utf-8", errors="ignore")[:limit]
+    except Exception:
+        return "(could not read error body)"
+
 
 
 def refine_summary_with_claude(problem_text, code_text, title):
