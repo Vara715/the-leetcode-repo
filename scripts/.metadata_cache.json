@@ -120,6 +120,17 @@
       "Title": "Count Good Nodes in Binary Tree"
     }
   },
+  "leetcode/customers-who-never-order.sql": {
+    "hash": "1c212544ffbb679a",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/customers-who-never-order/",
+      "Platform": "LeetCode",
+      "Summary": "Table: Customers Table: Orders Write a solution to find all customers who never order anything. Return the result table in any order . The result format is in the following example. Example 1:",
+      "Tags": "Database",
+      "Title": "Customers Who Never Order"
+    }
+  },
   "leetcode/decode-ways.cpp": {
     "hash": "c4f303afca1274c4",
     "meta": {
