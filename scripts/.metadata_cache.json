@@ -98,6 +98,17 @@
       "Title": "Check Divisibility by Digit Sum and Product"
     }
   },
+  "leetcode/classes-with-at-least-5-students.sql": {
+    "hash": "746cffb0880dceb8",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/classes-with-at-least-5-students/",
+      "Platform": "LeetCode",
+      "Summary": "List every class whose enrollment reaches five or more students.",
+      "Tags": "Database",
+      "Title": "Classes With at Least 5 Students"
+    }
+  },
   "leetcode/combine-two-tables.sql": {
     "hash": "bb724f7817d000f2",
     "meta": {
@@ -118,6 +129,17 @@
       "Summary": "Given a binary tree root , a node X in the tree is named good if in the path from root to X there are no nodes with a value greater than X. Return the number of good nodes in the binary tree. Example 1: Example 2:\u2026",
       "Tags": "Tree, Depth-First Search, Breadth-First Search, Binary Tree",
       "Title": "Count Good Nodes in Binary Tree"
+    }
+  },
+  "leetcode/customer-placing-the-largest-number-of-orders.sql": {
+    "hash": "c43d03cc1d4d3b6b",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/",
+      "Platform": "LeetCode",
+      "Summary": "Table: Orders Write a solution to find the customer_number for the customer who has placed the largest number of orders . The test cases are generated so that exactly one customer will have placed more orders than any\u2026",
+      "Tags": "Database",
+      "Title": "Customer Placing the Largest Number of Orders"
     }
   },
   "leetcode/customers-who-never-order.sql": {
@@ -428,6 +450,17 @@
       "Title": "Not Boring Movies"
     }
   },
+  "leetcode/number-of-unique-subjects-taught-by-each-teacher.sql": {
+    "hash": "5df3c3eaa6c81e11",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/",
+      "Platform": "LeetCode",
+      "Summary": "Table: Teacher Write a solution to calculate the number of unique subjects each teacher teaches in the university. Return the result table in any order . The result format is shown in the following example. Example 1:",
+      "Tags": "Database",
+      "Title": "Number of Unique Subjects Taught by Each Teacher"
+    }
+  },
   "leetcode/path-sum-iii.cpp": {
     "hash": "c95797106cdbf331",
     "meta": {
@@ -439,6 +472,17 @@
       "Title": "Path Sum III"
     }
   },
+  "leetcode/product-sales-analysis-i.sql": {
+    "hash": "017f8646331e1c56",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/product-sales-analysis-i/",
+      "Platform": "LeetCode",
+      "Summary": "Table: Sales Table: Product Write a solution to report the product_name , year , and price for each sale_id in the Sales table. Return the resulting table in any order . The result format is in the following example.\u2026",
+      "Tags": "Database",
+      "Title": "Product Sales Analysis I"
+    }
+  },
   "leetcode/recyclable-and-low-fat-products.sql": {
     "hash": "92bd494249242a05",
     "meta": {
@@ -448,6 +492,17 @@
       "Summary": "Return the product IDs that are both low\u2011fat and recyclable.",
       "Tags": "Database",
       "Title": "Recyclable and Low Fat Products"
+    }
+  },
+  "leetcode/replace-employee-id-with-the-unique-identifier.sql": {
+    "hash": "5fe9a5fb536d678f",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/",
+      "Platform": "LeetCode",
+      "Summary": "Table: Employees Table: EmployeeUNI Write a solution to show the unique ID of each user, If a user does not have a unique ID replace just show null . Return the result table in any order. The result format is in the\u2026",
+      "Tags": "Database",
+      "Title": "Replace Employee ID With The Unique Identifier"
     }
   },
   "leetcode/reverse-vowels-of-a-string.py": {

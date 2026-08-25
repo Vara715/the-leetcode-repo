@@ -57,7 +57,12 @@
     "2115764511",
     "2115764751",
     "2115773305",
-    "2117233933"
+    "2117233933",
+    "2118573136",
+    "2118580480",
+    "2118596671",
+    "2118789033",
+    "2118794262"
   ],
   "solved_timestamps": {
     "best-time-to-buy-and-sell-stock-ii": "1786536502",
@@ -92,6 +97,11 @@
     "article-views-i": "1787377332",
     "big-countries": "1787377063",
     "recyclable-and-low-fat-products": "1787376504",
-    "customers-who-never-order": "1787482010"
+    "customers-who-never-order": "1787482010",
+    "product-sales-analysis-i": "1787593741",
+    "replace-employee-id-with-the-unique-identifier": "1787593518",
+    "number-of-unique-subjects-taught-by-each-teacher": "1787584850",
+    "classes-with-at-least-5-students": "1787584015",
+    "customer-placing-the-largest-number-of-orders": "1787583625"
   }
 }
