@@ -102,6 +102,7 @@
     "replace-employee-id-with-the-unique-identifier": "1787593518",
     "number-of-unique-subjects-taught-by-each-teacher": "1787584850",
     "classes-with-at-least-5-students": "1787584015",
-    "customer-placing-the-largest-number-of-orders": "1787583625"
+    "customer-placing-the-largest-number-of-orders": "1787583625",
+    "longest-increasing-subsequence": "1787725758"
   }
 }
