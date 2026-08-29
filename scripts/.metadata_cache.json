@@ -373,6 +373,17 @@
       "Title": "Keys and Rooms"
     }
   },
+  "leetcode/largest-number.cpp": {
+    "hash": "fd5aec2c35630688",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/largest-number/",
+      "Platform": "LeetCode",
+      "Summary": "Given a list of non-negative integers nums , arrange them such that they form the largest number and return it. Since the result may be very large, so you need to return a string instead of an integer. Example 1:\u2026",
+      "Tags": "Array, String, Greedy, Sorting",
+      "Title": "Largest Number"
+    }
+  },
   "leetcode/longest-increasing-subsequence.cpp": {
     "hash": "2e030677d9bd4cf8",
     "meta": {
