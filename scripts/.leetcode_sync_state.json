@@ -64,7 +64,12 @@
     "2118789033",
     "2118794262",
     "2120463500",
-    "2123649388"
+    "2123649388",
+    "2125582635",
+    "2125585641",
+    "2125588890",
+    "2125595520",
+    "2125624208"
   ],
   "solved_timestamps": {
     "best-time-to-buy-and-sell-stock-ii": "1786536502",
@@ -106,6 +111,11 @@
     "classes-with-at-least-5-students": "1787584015",
     "customer-placing-the-largest-number-of-orders": "1787583625",
     "longest-increasing-subsequence": "1787725758",
-    "largest-number": "1787993991"
+    "largest-number": "1787993991",
+    "customer-who-visited-but-did-not-make-any-transactions": "1788147412",
+    "largest-perimeter-triangle": "1788144036",
+    "valid-palindrome-ii": "1788143108",
+    "array-partition": "1788142633",
+    "lemonade-change": "1788142179"
   }
 }

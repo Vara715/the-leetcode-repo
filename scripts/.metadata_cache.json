@@ -1,4 +1,15 @@
 {
+  "leetcode/array-partition.cpp": {
+    "hash": "61ecab69c56116bf",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/array-partition/",
+      "Platform": "LeetCode",
+      "Summary": "Given an integer array nums of 2n integers, group these integers into n pairs (a 1 , b 1 ), (a 2 , b 2 ), ..., (a n , b n ) such that the sum of min(a i , b i ) for all i is maximized . Return the maximized sum .\u2026",
+      "Tags": "Array, Greedy, Sorting, Counting Sort",
+      "Title": "Array Partition"
+    }
+  },
   "leetcode/article-views-i.sql": {
     "hash": "a7d63109e5219d97",
     "meta": {
@@ -140,6 +151,17 @@
       "Summary": "Table: Orders Write a solution to find the customer_number for the customer who has placed the largest number of orders . The test cases are generated so that exactly one customer will have placed more orders than any\u2026",
       "Tags": "Database",
       "Title": "Customer Placing the Largest Number of Orders"
+    }
+  },
+  "leetcode/customer-who-visited-but-did-not-make-any-transactions.sql": {
+    "hash": "2a35e919dddfd6ed",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/",
+      "Platform": "LeetCode",
+      "Summary": "Table: Visits Table: Transactions Write a solution to find the IDs of the users who visited without making any transactions and the number of times they made these types of visits. Return the result table sorted in any\u2026",
+      "Tags": "Database",
+      "Title": "Customer Who Visited but Did Not Make Any Transactions"
     }
   },
   "leetcode/customers-who-never-order.sql": {
@@ -384,6 +406,28 @@
       "Title": "Largest Number"
     }
   },
+  "leetcode/largest-perimeter-triangle.java": {
+    "hash": "693e966dbdfb8e0e",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/largest-perimeter-triangle/",
+      "Platform": "LeetCode",
+      "Summary": "Given an integer array nums , return the largest perimeter of a triangle with a non-zero area, formed from three of these lengths . If it is impossible to form any triangle of a non-zero area, return 0 . Example 1:\u2026",
+      "Tags": "Array, Math, Greedy, Sorting, Quicksort, Polygons",
+      "Title": "Largest Perimeter Triangle"
+    }
+  },
+  "leetcode/lemonade-change.cpp": {
+    "hash": "3ef6d19a9ea545c3",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/lemonade-change/",
+      "Platform": "LeetCode",
+      "Summary": "At a lemonade stand, each lemonade costs $5 . Customers are standing in a queue to buy from you and order one at a time (in the order specified by bills). Each customer will only buy one lemonade and pay with either a\u2026",
+      "Tags": "Array, Greedy",
+      "Title": "Lemonade Change"
+    }
+  },
   "leetcode/longest-increasing-subsequence.cpp": {
     "hash": "2e030677d9bd4cf8",
     "meta": {
@@ -624,6 +668,17 @@
       "Summary": "You are given an integer array nums of length n . Construct an array prefixGcd where for each index i : Let mx i = max(nums[0], nums[1], ..., nums[i]) . prefixGcd[i] = gcd(nums[i], mx i ) . After constructing prefixGcd\u2026",
       "Tags": "Array, Math, Two Pointers, Sorting, Simulation, Number Theory",
       "Title": "Sum of GCD of Formed Pairs"
+    }
+  },
+  "leetcode/valid-palindrome-ii.java": {
+    "hash": "3765b8b82bc1ef24",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/valid-palindrome-ii/",
+      "Platform": "LeetCode",
+      "Summary": "Given a string s , return true if the s can be palindrome after deleting at most one character from it . Example 1: Example 2: Example 3: Constraints: 1 = s.length = 10 5 s consists of lowercase English letters.",
+      "Tags": "Two Pointers, String, Greedy",
+      "Title": "Valid Palindrome II"
     }
   },
   "leetcode/wildcard-matching.cpp": {
