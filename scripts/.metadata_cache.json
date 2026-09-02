@@ -373,6 +373,17 @@
       "Title": "House Robber II"
     }
   },
+  "leetcode/integer-replacement.cpp": {
+    "hash": "2b58f89fc1e4a982",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/integer-replacement/",
+      "Platform": "LeetCode",
+      "Summary": "Given a positive integer n , you can apply one of the following operations: If n is even, replace n with n / 2 . If n is odd, replace n with either n + 1 or n - 1 . Return the minimum number of operations needed for n\u2026",
+      "Tags": "Dynamic Programming, Greedy, Bit Manipulation, Memoization",
+      "Title": "Integer Replacement"
+    }
+  },
   "leetcode/invalid-tweets.sql": {
     "hash": "a3e086bfb5ae249c",
     "meta": {
@@ -385,7 +396,7 @@
     }
   },
   "leetcode/jump-game.cpp": {
-    "hash": "67cff11053de56f1",
+    "hash": "72d528de754a40eb",
     "meta": {
       "Difficulty": "Medium",
       "Link": "https://leetcode.com/problems/jump-game/",
