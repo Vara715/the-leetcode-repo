@@ -74,7 +74,8 @@
     "2125780405",
     "2127340072",
     "2127386308",
-    "2128833941"
+    "2128833941",
+    "2130045874"
   ],
   "solved_timestamps": {
     "best-time-to-buy-and-sell-stock-ii": "1786536502",
@@ -124,6 +125,7 @@
     "lemonade-change": "1788142179",
     "jump-game": "1788274039",
     "valid-parenthesis-string": "1788156602",
-    "integer-replacement": "1788373002"
+    "integer-replacement": "1788373002",
+    "count-primes": "1788464071"
   }
 }

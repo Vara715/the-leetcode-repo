@@ -142,6 +142,17 @@
       "Title": "Count Good Nodes in Binary Tree"
     }
   },
+  "leetcode/count-primes.java": {
+    "hash": "b1265375be330625",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/count-primes/",
+      "Platform": "LeetCode",
+      "Summary": "Given an integer n , return the number of prime numbers that are strictly less than n . Example 1: Example 2: Example 3: Constraints: 0 = n = 5 * 10 6",
+      "Tags": "Array, Math, Enumeration, Number Theory, Primality Test, Sieve Theory, Prime Number Sieve",
+      "Title": "Count Primes"
+    }
+  },
   "leetcode/customer-placing-the-largest-number-of-orders.sql": {
     "hash": "c43d03cc1d4d3b6b",
     "meta": {
