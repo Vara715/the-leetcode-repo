@@ -131,6 +131,17 @@
       "Title": "Combine Two Tables"
     }
   },
+  "leetcode/count-good-cyclic-rotations.cpp": {
+    "hash": "31ecc5b545fe363e",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/count-good-cyclic-rotations/",
+      "Platform": "LeetCode",
+      "Summary": "You are given an integer array nums of even length n . A cyclic rotation of nums is obtained by choosing a prefix of nums whose length is between 0 and n - 1 (inclusive), and moving it to the end of the array while\u2026",
+      "Tags": "",
+      "Title": "Count Good Cyclic Rotations"
+    }
+  },
   "leetcode/count-good-nodes-in-binary-tree.cpp": {
     "hash": "f388cb4d6f020fee",
     "meta": {
@@ -151,6 +162,17 @@
       "Summary": "Given an integer n , return the number of prime numbers that are strictly less than n . Example 1: Example 2: Example 3: Constraints: 0 = n = 5 * 10 6",
       "Tags": "Array, Math, Enumeration, Number Theory, Primality Test, Sieve Theory, Prime Number Sieve",
       "Title": "Count Primes"
+    }
+  },
+  "leetcode/count-rotations-with-exactly-k-equal-adjacent-pairs.cpp": {
+    "hash": "d85841e6fb1ac3a2",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/count-rotations-with-exactly-k-equal-adjacent-pairs/",
+      "Platform": "LeetCode",
+      "Summary": "Count how many cyclic rotations of a string have exactly k adjacent equal character pairs.",
+      "Tags": "",
+      "Title": "Count Rotations With Exactly K Equal Adjacent Pairs"
     }
   },
   "leetcode/customer-placing-the-largest-number-of-orders.sql": {
