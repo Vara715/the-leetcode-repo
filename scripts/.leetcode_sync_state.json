@@ -132,6 +132,7 @@
     "count-primes": "1788464071",
     "wiggle-sort-ii": "1788510332",
     "count-good-cyclic-rotations": "1788664049",
-    "count-rotations-with-exactly-k-equal-adjacent-pairs": "1788663632"
+    "count-rotations-with-exactly-k-equal-adjacent-pairs": "1788663632",
+    "cyclically-shift-rows-and-columns": "1789271304"
   }
 }
