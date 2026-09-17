@@ -117,7 +117,7 @@
     "product-sales-analysis-i": "1787593741",
     "replace-employee-id-with-the-unique-identifier": "1787593518",
     "number-of-unique-subjects-taught-by-each-teacher": "1787584850",
-    "classes-with-at-least-5-students": "1787584015",
+    "classes-with-at-least-5-students": "1789566590",
     "customer-placing-the-largest-number-of-orders": "1787583625",
     "longest-increasing-subsequence": "1787725758",
     "largest-number": "1787993991",
@@ -133,6 +133,8 @@
     "wiggle-sort-ii": "1788510332",
     "count-good-cyclic-rotations": "1788664049",
     "count-rotations-with-exactly-k-equal-adjacent-pairs": "1788663632",
-    "cyclically-shift-rows-and-columns": "1789271304"
+    "cyclically-shift-rows-and-columns": "1789271304",
+    "find-followers-count": "1789566982",
+    "rotate-function": "1789565964"
   }
 }
