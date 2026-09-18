@@ -135,6 +135,7 @@
     "count-rotations-with-exactly-k-equal-adjacent-pairs": "1788663632",
     "cyclically-shift-rows-and-columns": "1789271304",
     "find-followers-count": "1789566982",
-    "rotate-function": "1789565964"
+    "rotate-function": "1789565964",
+    "permutation-in-string": "1789649789"
   }
 }
