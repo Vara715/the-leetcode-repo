@@ -141,6 +141,7 @@
     "longest-substring-without-repeating-characters": "1789970132",
     "longest-repeating-character-replacement": "1790164664",
     "minimum-operations-to-reduce-x-to-zero": "1790150209",
-    "smallest-index-with-digit-sum-equal-to-index": "1790240242"
+    "smallest-index-with-digit-sum-equal-to-index": "1790240242",
+    "evaluate-the-bracket-pairs-of-a-string": "1790403574"
   }
 }
