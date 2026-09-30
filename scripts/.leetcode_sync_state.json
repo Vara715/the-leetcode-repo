@@ -144,6 +144,8 @@
     "smallest-index-with-digit-sum-equal-to-index": "1790240242",
     "evaluate-the-bracket-pairs-of-a-string": "1790403574",
     "maximum-nesting-depth-of-the-parentheses": "1790581719",
-    "reverse-substrings-between-each-pair-of-parentheses": "1790506242"
+    "reverse-substrings-between-each-pair-of-parentheses": "1790506242",
+    "maximum-nesting-depth-of-two-valid-parentheses-strings": "1790743183",
+    "check-if-there-is-a-valid-parentheses-string-path": "1790674295"
   }
 }
