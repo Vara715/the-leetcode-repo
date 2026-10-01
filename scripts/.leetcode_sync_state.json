@@ -146,6 +146,8 @@
     "maximum-nesting-depth-of-the-parentheses": "1790581719",
     "reverse-substrings-between-each-pair-of-parentheses": "1790506242",
     "maximum-nesting-depth-of-two-valid-parentheses-strings": "1790743183",
-    "check-if-there-is-a-valid-parentheses-string-path": "1790674295"
+    "check-if-there-is-a-valid-parentheses-string-path": "1790674295",
+    "path-sum-ii": "1790844271",
+    "valid-parentheses": "1790822623"
   }
 }
