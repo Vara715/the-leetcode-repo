@@ -150,6 +150,7 @@
     "path-sum-ii": "1790844271",
     "valid-parentheses": "1790822623",
     "gray-code": "1790925385",
-    "generate-parentheses": "1790912016"
+    "generate-parentheses": "1790912016",
+    "longest-valid-parentheses": "1791000180"
   }
 }
