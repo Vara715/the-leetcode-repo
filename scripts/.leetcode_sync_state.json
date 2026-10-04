@@ -127,7 +127,7 @@
     "array-partition": "1788142633",
     "lemonade-change": "1788142179",
     "jump-game": "1788274039",
-    "valid-parenthesis-string": "1788156602",
+    "valid-parenthesis-string": "1791098721",
     "integer-replacement": "1788373002",
     "count-primes": "1788464071",
     "wiggle-sort-ii": "1788510332",
@@ -151,6 +151,8 @@
     "valid-parentheses": "1790822623",
     "gray-code": "1790925385",
     "generate-parentheses": "1790912016",
-    "longest-valid-parentheses": "1791000180"
+    "longest-valid-parentheses": "1791000180",
+    "minimum-rotations-to-dial-a-number-ii": "1791083066",
+    "minimum-rotations-to-dial-a-number-i": "1791082578"
   }
 }
