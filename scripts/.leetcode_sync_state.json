@@ -153,6 +153,8 @@
     "generate-parentheses": "1790912016",
     "longest-valid-parentheses": "1791000180",
     "minimum-rotations-to-dial-a-number-ii": "1791083066",
-    "minimum-rotations-to-dial-a-number-i": "1791082578"
+    "minimum-rotations-to-dial-a-number-i": "1791082578",
+    "valid-sudoku": "1791172286",
+    "score-of-parentheses": "1791167253"
   }
 }
