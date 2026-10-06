@@ -136,7 +136,7 @@
     "cyclically-shift-rows-and-columns": "1789271304",
     "find-followers-count": "1789566982",
     "rotate-function": "1789565964",
-    "permutation-in-string": "1789649789",
+    "permutation-in-string": "1791264193",
     "linked-list-cycle-ii": "1789971805",
     "longest-substring-without-repeating-characters": "1789970132",
     "longest-repeating-character-replacement": "1790164664",
@@ -155,6 +155,8 @@
     "minimum-rotations-to-dial-a-number-ii": "1791083066",
     "minimum-rotations-to-dial-a-number-i": "1791082578",
     "valid-sudoku": "1791172286",
-    "score-of-parentheses": "1791167253"
+    "score-of-parentheses": "1791167253",
+    "fruit-into-baskets": "1791266063",
+    "minimum-add-to-make-parentheses-valid": "1791255334"
   }
 }
