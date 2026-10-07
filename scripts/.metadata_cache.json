@@ -109,6 +109,17 @@
       "Title": "Check Divisibility by Digit Sum and Product"
     }
   },
+  "leetcode/check-if-there-is-a-valid-parentheses-string-path.cpp": {
+    "hash": "a0432c2cee3b9897",
+    "meta": {
+      "Difficulty": "Hard",
+      "Link": "https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/",
+      "Platform": "LeetCode",
+      "Summary": "A parentheses string is a non-empty string consisting only of &#39;(&#39; and &#39;)&#39; . It is valid if any of the following conditions is true : It is () . It can be written as AB ( A concatenated with B ), where A\u2026",
+      "Tags": "Array, Dynamic Programming, Matrix, Bracket Sequences",
+      "Title": " Check if There Is a Valid Parentheses String Path"
+    }
+  },
   "leetcode/classes-with-at-least-5-students.sql": {
     "hash": "746cffb0880dceb8",
     "meta": {
@@ -274,6 +285,17 @@
       "Title": "Employees Earning More Than Their Managers"
     }
   },
+  "leetcode/evaluate-the-bracket-pairs-of-a-string.cpp": {
+    "hash": "64b5173da26bae86",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/",
+      "Platform": "LeetCode",
+      "Summary": "You are given a string s that contains some bracket pairs, with each pair containing a non-empty key. For example, in the string (name)is(age)yearsold , there are two bracket pairs that contain the keys name and age .\u2026",
+      "Tags": "Array, Hash Table, String",
+      "Title": "Evaluate the Bracket Pairs of a String"
+    }
+  },
   "leetcode/find-customer-referee.sql": {
     "hash": "62618113ecbc9977",
     "meta": {
@@ -373,6 +395,17 @@
       "Title": "Find the Largest Almost Missing Integer"
     }
   },
+  "leetcode/fruit-into-baskets.cpp": {
+    "hash": "c030609dba091c80",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/fruit-into-baskets/",
+      "Platform": "LeetCode",
+      "Summary": "You are visiting a farm that has a single row of fruit trees arranged from left to right. The trees are represented by an integer array fruits where fruits[i] is the type of fruit the i th tree produces. You want to\u2026",
+      "Tags": "Array, Hash Table, Sliding Window",
+      "Title": "Fruit Into Baskets"
+    }
+  },
   "leetcode/gcd-of-odd-and-even-sums.cpp": {
     "hash": "f0dc90dc8a885787",
     "meta": {
@@ -382,6 +415,28 @@
       "Summary": "You are given an integer n . Your task is to compute the GCD (greatest common divisor) of two values: sumOdd : the sum of the smallest n positive odd numbers. sumEven : the sum of the smallest n positive even numbers.\u2026",
       "Tags": "Math, Number Theory",
       "Title": "GCD of Odd and Even Sums"
+    }
+  },
+  "leetcode/generate-parentheses.cpp": {
+    "hash": "0236610289156405",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/generate-parentheses/",
+      "Platform": "LeetCode",
+      "Summary": "Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses . Example 1: Example 2: Constraints: 1 = n = 8",
+      "Tags": "String, Dynamic Programming, Backtracking, Bracket Sequences",
+      "Title": "Generate Parentheses"
+    }
+  },
+  "leetcode/gray-code.cpp": {
+    "hash": "45dd75f10fd56680",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/gray-code/",
+      "Platform": "LeetCode",
+      "Summary": "An n-bit gray code sequence is a sequence of 2 n integers where: Every integer is in the inclusive range [0, 2 n - 1] , The first integer is 0 , An integer appears no more than once in the sequence, The binary\u2026",
+      "Tags": "Math, Backtracking, Bit Manipulation",
+      "Title": "Gray Code"
     }
   },
   "leetcode/greatest-common-divisor-of-strings.cpp": {
@@ -505,6 +560,17 @@
       "Title": "Longest Palindromic Subsequence"
     }
   },
+  "leetcode/longest-valid-parentheses.cpp": {
+    "hash": "fdb49d2414cec9bc",
+    "meta": {
+      "Difficulty": "Hard",
+      "Link": "https://leetcode.com/problems/longest-valid-parentheses/",
+      "Platform": "LeetCode",
+      "Summary": "Given a string containing just the characters &#39;(&#39; and &#39;)&#39; , return the length of the longest valid (well-formed) parentheses substring . Example 1: Example 2: Example 3: Constraints: 0 = s.length = 3 *\u2026",
+      "Tags": "String, Dynamic Programming, Stack, Bracket Sequences",
+      "Title": "Longest Valid Parentheses"
+    }
+  },
   "leetcode/longest-zigzag-path-in-a-binary-tree.cpp": {
     "hash": "f41bc39883174ee2",
     "meta": {
@@ -527,6 +593,28 @@
       "Title": "LRU Cache"
     }
   },
+  "leetcode/maximum-nesting-depth-of-the-parentheses.cpp": {
+    "hash": "0b0c1dadebe405c4",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/",
+      "Platform": "LeetCode",
+      "Summary": "Given a valid parentheses string s , return the nesting depth of s . The nesting depth is the maximum number of nested parentheses. Example 1: Input: s = (1+(2*3)+((8)/4))+1 Output: 3 Explanation: Digit 8 is inside of 3\u2026",
+      "Tags": "String, Stack, Bracket Sequences",
+      "Title": "Maximum Nesting Depth of the Parentheses"
+    }
+  },
+  "leetcode/maximum-nesting-depth-of-two-valid-parentheses-strings.cpp": {
+    "hash": "bf11ef1172d2e6dc",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/",
+      "Platform": "LeetCode",
+      "Summary": "A string is a valid parentheses string (denoted VPS) if and only if it consists of ( and ) characters only, and: It is the empty string, or It can be written as AB ( A concatenated with B ), where A and B are VPS&#39;s,\u2026",
+      "Tags": "String, Stack, Bracket Sequences",
+      "Title": "Maximum Nesting Depth of Two Valid Parentheses Strings"
+    }
+  },
   "leetcode/maximum-twin-sum-of-a-linked-list.cpp": {
     "hash": "e2f84e849a25fb20",
     "meta": {
@@ -538,6 +626,17 @@
       "Title": "Maximum Twin Sum of a Linked List"
     }
   },
+  "leetcode/minimum-add-to-make-parentheses-valid.cpp": {
+    "hash": "7b7eb0cef054d050",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/",
+      "Platform": "LeetCode",
+      "Summary": "A parentheses string is valid if and only if: It is the empty string, It can be written as AB ( A concatenated with B ), where A and B are valid strings, or It can be written as (A) , where A is a valid string. You are\u2026",
+      "Tags": "String, Stack, Greedy, Bracket Sequences",
+      "Title": "Minimum Add to Make Parentheses Valid"
+    }
+  },
   "leetcode/minimum-insertion-steps-to-make-a-string-palindrome.cpp": {
     "hash": "125c5a2e6af286ca",
     "meta": {
@@ -547,6 +646,28 @@
       "Summary": "Compute",
       "Tags": "String, Dynamic Programming",
       "Title": "Minimum Insertion Steps to Make a String Palindrome"
+    }
+  },
+  "leetcode/minimum-rotations-to-dial-a-number-i.cpp": {
+    "hash": "8558d5043da73c08",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/minimum-rotations-to-dial-a-number-i/",
+      "Platform": "LeetCode",
+      "Summary": "You are given a string s of length 10 consisting of digits. The dial contains the digits 0 through 9 in order and is circular , so 0 and 9 are adjacent. The pointer initially points to 0. To dial each digit of s in\u2026",
+      "Tags": "",
+      "Title": "Minimum Rotations to Dial a Number I"
+    }
+  },
+  "leetcode/minimum-rotations-to-dial-a-number-ii.cpp": {
+    "hash": "e021003c72324591",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/minimum-rotations-to-dial-a-number-ii/",
+      "Platform": "LeetCode",
+      "Summary": "You are given an integer n and a string s of length n consisting of digits. The dial contains the digits 0 through 9 in order and is circular , so 0 and 9 are adjacent. The pointer initially points to 0. To dial each\u2026",
+      "Tags": "",
+      "Title": "Minimum Rotations to Dial a Number II"
     }
   },
   "leetcode/minimum-total-cost-to-process-all-elements.cpp": {
@@ -582,6 +703,17 @@
       "Title": "Number of Unique Subjects Taught by Each Teacher"
     }
   },
+  "leetcode/path-sum-ii.cpp": {
+    "hash": "a5351d0cca3c2b15",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/path-sum-ii/",
+      "Platform": "LeetCode",
+      "Summary": "Given the root of a binary tree and an integer targetSum , return all root-to-leaf paths where the sum of the node values in the path equals targetSum . Each path should be returned as a list of the node values , not\u2026",
+      "Tags": "Backtracking, Tree, Depth-First Search, Binary Tree",
+      "Title": "Path Sum II"
+    }
+  },
   "leetcode/path-sum-iii.cpp": {
     "hash": "c95797106cdbf331",
     "meta": {
@@ -591,6 +723,17 @@
       "Summary": "Given the root of a binary tree and an integer targetSum , return the number of paths where the sum of the values along the path equals targetSum . The path does not need to start or end at the root or a leaf, but it\u2026",
       "Tags": "Tree, Depth-First Search, Binary Tree",
       "Title": "Path Sum III"
+    }
+  },
+  "leetcode/permutation-in-string.cpp": {
+    "hash": "66a34b0a64dc3764",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/permutation-in-string/",
+      "Platform": "LeetCode",
+      "Summary": "Given two strings s1 and s2 , return true if s2 contains a permutation of s1 , or false otherwise. In other words, return true if one of s1 &#39;s permutations is the substring of s2 . Example 1: Example 2: Constraints:\u2026",
+      "Tags": "Hash Table, Two Pointers, String, Sliding Window",
+      "Title": "Permutation in String"
     }
   },
   "leetcode/product-sales-analysis-i.sql": {
@@ -615,6 +758,17 @@
       "Title": "Recyclable and Low Fat Products"
     }
   },
+  "leetcode/remove-invalid-parentheses.cpp": {
+    "hash": "3976032d783238c3",
+    "meta": {
+      "Difficulty": "Hard",
+      "Link": "https://leetcode.com/problems/remove-invalid-parentheses/",
+      "Platform": "LeetCode",
+      "Summary": "Given a string s that contains parentheses and letters, remove the minimum number of invalid parentheses to make the input string valid. Return a list of unique strings that are valid with the minimum number of removals\u2026",
+      "Tags": "String, Backtracking, Breadth-First Search",
+      "Title": "Remove Invalid Parentheses"
+    }
+  },
   "leetcode/replace-employee-id-with-the-unique-identifier.sql": {
     "hash": "5fe9a5fb536d678f",
     "meta": {
@@ -626,6 +780,17 @@
       "Title": "Replace Employee ID With The Unique Identifier"
     }
   },
+  "leetcode/reverse-substrings-between-each-pair-of-parentheses.cpp": {
+    "hash": "c041837444e05df1",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/",
+      "Platform": "LeetCode",
+      "Summary": "You are given a string s that consists of lower case English letters and brackets. Reverse the strings in each pair of matching parentheses, starting from the innermost one. Your result should not contain any brackets.\u2026",
+      "Tags": "String, Stack, Bracket Sequences",
+      "Title": "Reverse Substrings Between Each Pair of Parentheses"
+    }
+  },
   "leetcode/reverse-vowels-of-a-string.py": {
     "hash": "7df8b7f1d56c0586",
     "meta": {
@@ -635,6 +800,17 @@
       "Summary": "Given a string s , reverse only all the vowels in the string and return it. The vowels are &#39;a&#39; , &#39;e&#39; , &#39;i&#39; , &#39;o&#39; , and &#39;u&#39; , and they can appear in both lower and upper cases,\u2026",
       "Tags": "Two Pointers, String",
       "Title": "Reverse Vowels of a String"
+    }
+  },
+  "leetcode/score-of-parentheses.cpp": {
+    "hash": "0cdb21b2b9d6c4c5",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/score-of-parentheses/",
+      "Platform": "LeetCode",
+      "Summary": "Given a balanced parentheses string s , return the score of the string . The score of a balanced parentheses string is based on the following rule: () has score 1 . AB has score A + B , where A and B are balanced\u2026",
+      "Tags": "String, Stack, Bracket Sequences",
+      "Title": "Score of Parentheses"
     }
   },
   "leetcode/search-in-a-binary-search-tree.cpp": {
@@ -668,6 +844,17 @@
       "Summary": "Given two strings str1 and str2 , return the shortest string that has both str1 and str2 as subsequences . If there are multiple valid strings, return any of them. A string s is a subsequence of string t if deleting\u2026",
       "Tags": "String, Dynamic Programming, Longest Common Subsequence",
       "Title": "Shortest Common Supersequence "
+    }
+  },
+  "leetcode/smallest-index-with-digit-sum-equal-to-index.cpp": {
+    "hash": "65724977d68aa138",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/",
+      "Platform": "LeetCode",
+      "Summary": "You are given an integer array nums . Return the smallest index i such that the sum of the digits of nums[i] is equal to i . If no such index exists, return -1 . Example 1: Input: nums = [1,3,2] Output: 2 Explanation:\u2026",
+      "Tags": "Array, Math",
+      "Title": "Smallest Index With Digit Sum Equal to Index"
     }
   },
   "leetcode/smallest-number-in-infinite-set.cpp": {
@@ -736,8 +923,19 @@
       "Title": "Valid Palindrome II"
     }
   },
+  "leetcode/valid-parentheses.cpp": {
+    "hash": "b1ce61ecf1d7be6b",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/valid-parentheses/",
+      "Platform": "LeetCode",
+      "Summary": "Given a string s containing just the characters &#39;(&#39; , &#39;)&#39; , &#39;{&#39; , &#39;}&#39; , &#39;[&#39; and &#39;]&#39; , determine if the input string is valid. An input string is valid if: Open brackets\u2026",
+      "Tags": "String, Stack, Bracket Sequences",
+      "Title": "Valid Parentheses"
+    }
+  },
   "leetcode/valid-parenthesis-string.cpp": {
-    "hash": "efec075ad01ec8a1",
+    "hash": "1b3080bcfe1a7b54",
     "meta": {
       "Difficulty": "Medium",
       "Link": "https://leetcode.com/problems/valid-parenthesis-string/",
@@ -745,6 +943,17 @@
       "Summary": "Given a string s containing only three types of characters: &#39;(&#39; , &#39;)&#39; and &#39;*&#39; , return true if s is valid . The following rules define a valid string: Any left parenthesis &#39;(&#39; must have a\u2026",
       "Tags": "String, Dynamic Programming, Stack, Greedy, Bracket Sequences",
       "Title": "Valid Parenthesis String"
+    }
+  },
+  "leetcode/valid-sudoku.cpp": {
+    "hash": "33f92ec6244e7338",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/valid-sudoku/",
+      "Platform": "LeetCode",
+      "Summary": "Determine if a 9 x 9 Sudoku board is valid. Only the filled cells need to be validated according to the following rules : Each row must contain the digits 1-9 without repetition. Each column must contain the digits 1-9\u2026",
+      "Tags": "Array, Hash Table, Matrix",
+      "Title": "Valid Sudoku"
     }
   },
   "leetcode/wiggle-sort-ii.cpp": {
