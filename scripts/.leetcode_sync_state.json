@@ -157,6 +157,7 @@
     "valid-sudoku": "1791172286",
     "score-of-parentheses": "1791167253",
     "fruit-into-baskets": "1791266063",
-    "minimum-add-to-make-parentheses-valid": "1791255334"
+    "minimum-add-to-make-parentheses-valid": "1791255334",
+    "remove-invalid-parentheses": "1791342880"
   }
 }
