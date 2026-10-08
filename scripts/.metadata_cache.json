@@ -769,6 +769,17 @@
       "Title": "Remove Invalid Parentheses"
     }
   },
+  "leetcode/remove-outermost-parentheses.cpp": {
+    "hash": "2788b5a89eed1726",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/remove-outermost-parentheses/",
+      "Platform": "LeetCode",
+      "Summary": "Remove the outermost parentheses from every primitive substring of a valid parentheses string.",
+      "Tags": "String, Stack, Bracket Sequences",
+      "Title": "Remove Outermost Parentheses"
+    }
+  },
   "leetcode/replace-employee-id-with-the-unique-identifier.sql": {
     "hash": "5fe9a5fb536d678f",
     "meta": {
