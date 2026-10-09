@@ -648,6 +648,17 @@
       "Title": "Minimum Insertion Steps to Make a String Palindrome"
     }
   },
+  "leetcode/minimum-insertions-to-balance-a-parentheses-string.cpp": {
+    "hash": "326c9b9fa042330e",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/",
+      "Platform": "LeetCode",
+      "Summary": "Given a parentheses string s containing only the characters &#39;(&#39; and &#39;)&#39; . A parentheses string is balanced if: Any left parenthesis &#39;(&#39; must have a corresponding two consecutive right parenthesis\u2026",
+      "Tags": "String, Stack, Greedy, Bracket Sequences",
+      "Title": "Minimum Insertions to Balance a Parentheses String"
+    }
+  },
   "leetcode/minimum-rotations-to-dial-a-number-i.cpp": {
     "hash": "8558d5043da73c08",
     "meta": {

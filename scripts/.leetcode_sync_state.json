@@ -99,7 +99,8 @@
     "2163847684",
     "2163880389",
     "2164834477",
-    "2165958264"
+    "2165958264",
+    "2166886560"
   ],
   "solved_timestamps": {
     "best-time-to-buy-and-sell-stock-ii": "1786536502",
@@ -180,6 +181,7 @@
     "fruit-into-baskets": "1791266063",
     "minimum-add-to-make-parentheses-valid": "1791255334",
     "remove-invalid-parentheses": "1791342880",
-    "remove-outermost-parentheses": "1791435991"
+    "remove-outermost-parentheses": "1791435991",
+    "minimum-insertions-to-balance-a-parentheses-string": "1791517786"
   }
 }
