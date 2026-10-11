@@ -182,6 +182,8 @@
     "minimum-add-to-make-parentheses-valid": "1791255334",
     "remove-invalid-parentheses": "1791342880",
     "remove-outermost-parentheses": "1791435991",
-    "minimum-insertions-to-balance-a-parentheses-string": "1791517786"
+    "minimum-insertions-to-balance-a-parentheses-string": "1791517786",
+    "sum-of-squares-of-special-elements": "1791690314",
+    "minimum-sum-of-squared-difference": "1791643821"
   }
 }
