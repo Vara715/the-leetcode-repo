@@ -1,4 +1,15 @@
 {
+  "leetcode/apply-operations-on-array-to-maximize-sum-of-squares.cpp": {
+    "hash": "d4d9d7075ba58e93",
+    "meta": {
+      "Difficulty": "Hard",
+      "Link": "https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/",
+      "Platform": "LeetCode",
+      "Summary": "You are given a 0-indexed integer array nums and a positive integer k . You can do the following operation on the array any number of times: Choose any two distinct indices i and j and simultaneously update the values\u2026",
+      "Tags": "Array, Hash Table, Greedy, Bit Manipulation",
+      "Title": "Apply Operations on Array to Maximize Sum of Squares"
+    }
+  },
   "leetcode/array-partition.cpp": {
     "hash": "61ecab69c56116bf",
     "meta": {
@@ -239,6 +250,17 @@
       "Summary": "Given two strings word1 and word2 , return the minimum number of steps required to make word1 and word2 the same . In one step , you can delete exactly one character in either string. Example 1: Example 2: Constraints:\u2026",
       "Tags": "String, Dynamic Programming, Longest Common Subsequence",
       "Title": "Delete Operation for Two Strings"
+    }
+  },
+  "leetcode/design-bus-seat-booking-system.cpp": {
+    "hash": "3d95525282642d8b",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/design-bus-seat-booking-system/",
+      "Platform": "LeetCode",
+      "Summary": "You are asked to design a seat booking system for a bus. The bus has n rows. Each row has four seats labeled A , B , C , and D . Seats A and D are window seats; seats B and C are middle seats. In each row, seat A is\u2026",
+      "Tags": "",
+      "Title": "Design Bus Seat Booking System"
     }
   },
   "leetcode/distinct-subsequences.cpp": {
@@ -593,6 +615,28 @@
       "Title": "LRU Cache"
     }
   },
+  "leetcode/maximize-sum-of-squares-of-digits.cpp": {
+    "hash": "0a8f683c81248a44",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/maximize-sum-of-squares-of-digits/",
+      "Platform": "LeetCode",
+      "Summary": "You are given two positive integers num and sum . A positive integer n is good if it satisfies both of the following: The number of digits in n is exactly num . The sum of digits in n is exactly sum . The score of a\u2026",
+      "Tags": "Math, Greedy",
+      "Title": "Maximize Sum of Squares of Digits"
+    }
+  },
+  "leetcode/maximum-alternating-sum-of-squares.cpp": {
+    "hash": "5e71a9872710e200",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/maximum-alternating-sum-of-squares/",
+      "Platform": "LeetCode",
+      "Summary": "You are given an integer array nums . You may rearrange the elements in any order. The alternating score of an array arr is defined as: score = arr[0] 2 - arr[1] 2 + arr[2] 2 - arr[3] 2 + ... Return an integer denoting\u2026",
+      "Tags": "Array, Greedy, Sorting",
+      "Title": "Maximum Alternating Sum of Squares"
+    }
+  },
   "leetcode/maximum-nesting-depth-of-the-parentheses.cpp": {
     "hash": "0b0c1dadebe405c4",
     "meta": {
@@ -681,6 +725,17 @@
       "Title": "Minimum Rotations to Dial a Number II"
     }
   },
+  "leetcode/minimum-sum-of-squared-difference.cpp": {
+    "hash": "d481634f6be08ef9",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/minimum-sum-of-squared-difference/",
+      "Platform": "LeetCode",
+      "Summary": "You are given two positive 0-indexed integer arrays nums1 and nums2 , both of length n . The sum of squared difference of arrays nums1 and nums2 is defined as the sum of (nums1[i] - nums2[i]) 2 for each 0 = i n . You\u2026",
+      "Tags": "Array, Binary Search, Greedy, Sorting, Heap (Priority Queue)",
+      "Title": "Minimum Sum of Squared Difference"
+    }
+  },
   "leetcode/minimum-total-cost-to-process-all-elements.cpp": {
     "hash": "bdeca704f3688b60",
     "meta": {
@@ -745,6 +800,17 @@
       "Summary": "Given two strings s1 and s2 , return true if s2 contains a permutation of s1 , or false otherwise. In other words, return true if one of s1 &#39;s permutations is the substring of s2 . Example 1: Example 2: Constraints:\u2026",
       "Tags": "Hash Table, Two Pointers, String, Sliding Window",
       "Title": "Permutation in String"
+    }
+  },
+  "leetcode/prime-subset-selection-i.cpp": {
+    "hash": "ae737119342456ba",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/prime-subset-selection-i/",
+      "Platform": "LeetCode",
+      "Summary": "You are given two integers n and s . Consider all prime numbers less than or equal to n . Select some of these primes such that: The sum of the selected primes is less than or equal to s . The number of selected primes\u2026",
+      "Tags": "",
+      "Title": "Prime Subset Selection I"
     }
   },
   "leetcode/product-sales-analysis-i.sql": {
@@ -912,6 +978,28 @@
       "Title": "String Compression"
     }
   },
+  "leetcode/subarrays-distinct-element-sum-of-squares-i.cpp": {
+    "hash": "81461399c5abfb3e",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/",
+      "Platform": "LeetCode",
+      "Summary": "You are given a 0-indexed integer array nums . The distinct count of a subarray of nums is defined as: Let nums[i..j] be a subarray of nums consisting of all the indices from i to j such that 0 = i = j nums.length .\u2026",
+      "Tags": "Array, Hash Table, Binary Indexed Tree, Segment Tree",
+      "Title": "Subarrays Distinct Element Sum of Squares I"
+    }
+  },
+  "leetcode/subarrays-distinct-element-sum-of-squares-ii.cpp": {
+    "hash": "4ca020f35dee20f0",
+    "meta": {
+      "Difficulty": "Hard",
+      "Link": "https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/",
+      "Platform": "LeetCode",
+      "Summary": "You are given a 0-indexed integer array nums . The distinct count of a subarray of nums is defined as: Let nums[i..j] be a subarray of nums consisting of all the indices from i to j such that 0 = i = j nums.length .\u2026",
+      "Tags": "Array, Hash Table, Binary Indexed Tree, Segment Tree",
+      "Title": "Subarrays Distinct Element Sum of Squares II"
+    }
+  },
   "leetcode/successful-pairs-of-spells-and-potions.cpp": {
     "hash": "5a1231b9bbaa08e7",
     "meta": {
@@ -932,6 +1020,28 @@
       "Summary": "You are given an integer array nums of length n . Construct an array prefixGcd where for each index i : Let mx i = max(nums[0], nums[1], ..., nums[i]) . prefixGcd[i] = gcd(nums[i], mx i ) . After constructing prefixGcd\u2026",
       "Tags": "Array, Math, Two Pointers, Sorting, Simulation, Number Theory",
       "Title": "Sum of GCD of Formed Pairs"
+    }
+  },
+  "leetcode/sum-of-squares-of-special-elements.cpp": {
+    "hash": "14be326d31762cff",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/sum-of-squares-of-special-elements/",
+      "Platform": "LeetCode",
+      "Summary": "You are given a 1-indexed integer array nums of length n . An element nums[i] of nums is called special if i divides n , i.e. n % i == 0 . Return the sum of the squares of all special elements of nums . Example 1:\u2026",
+      "Tags": "Array, Enumeration",
+      "Title": "Sum of Squares of Special Elements "
+    }
+  },
+  "leetcode/three-fibonacci-sum.cpp": {
+    "hash": "a0dba83332423cf2",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/three-fibonacci-sum/",
+      "Platform": "LeetCode",
+      "Summary": "You are given an integer n . The Fibonacci sequence starts with 0 and 1, and each subsequent number is the sum of the previous two numbers. Its first few terms are 0, 1, 1, 2, 3, 5, 8, 13, ... . Return true if n can be\u2026",
+      "Tags": "",
+      "Title": "Three Fibonacci Sum"
     }
   },
   "leetcode/valid-palindrome-ii.java": {
