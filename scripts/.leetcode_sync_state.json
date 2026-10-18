@@ -111,7 +111,11 @@
     "2172400969",
     "2172645857",
     "2173860487",
-    "2174314368"
+    "2174314368",
+    "2174982983",
+    "2175008921",
+    "2175043355",
+    "2175055969"
   ],
   "solved_timestamps": {
     "best-time-to-buy-and-sell-stock-ii": "1786536502",
@@ -204,6 +208,10 @@
     "maximize-sum-of-squares-of-digits": "1792000588",
     "subarrays-distinct-element-sum-of-squares-i": "1792034839",
     "subarrays-distinct-element-sum-of-squares-ii": "1792158106",
-    "minimum-swaps-to-sort-by-digit-sum": "1792215754"
+    "minimum-swaps-to-sort-by-digit-sum": "1792215754",
+    "number-of-ways-to-reorder-array-to-get-same-bst": "1792294464",
+    "find-root-of-a-colored-tree": "1792293767",
+    "last-visited-cell-in-a-directional-grid": "1792292037",
+    "minimum-deletions-to-make-array-sharp": "1792290916"
   }
 }
