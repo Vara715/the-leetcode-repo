@@ -384,6 +384,17 @@
       "Title": "Find Root of a Colored Tree"
     }
   },
+  "leetcode/find-target-indices-after-sorting-array.cpp": {
+    "hash": "0a39eb787e449081",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/find-target-indices-after-sorting-array/",
+      "Platform": "LeetCode",
+      "Summary": "You are given a 0-indexed integer array nums and a target element target . A target index is an index i such that nums[i] == target . Return a list of the target indices of nums after sorting nums in non-decreasing\u2026",
+      "Tags": "Array, Binary Search, Sorting",
+      "Title": "Find Target Indices After Sorting Array"
+    }
+  },
   "leetcode/find-the-difference-of-two-arrays.cpp": {
     "hash": "bd5a8e120b8065ea",
     "meta": {

@@ -115,7 +115,8 @@
     "2174982983",
     "2175008921",
     "2175043355",
-    "2175055969"
+    "2175055969",
+    "2175901232"
   ],
   "solved_timestamps": {
     "best-time-to-buy-and-sell-stock-ii": "1786536502",
@@ -212,6 +213,7 @@
     "number-of-ways-to-reorder-array-to-get-same-bst": "1792294464",
     "find-root-of-a-colored-tree": "1792293767",
     "last-visited-cell-in-a-directional-grid": "1792292037",
-    "minimum-deletions-to-make-array-sharp": "1792290916"
+    "minimum-deletions-to-make-array-sharp": "1792290916",
+    "find-target-indices-after-sorting-array": "1792385847"
   }
 }
