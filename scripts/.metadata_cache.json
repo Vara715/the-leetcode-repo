@@ -747,6 +747,17 @@
       "Title": "Minimum Insertions to Balance a Parentheses String"
     }
   },
+  "leetcode/minimum-operations-to-sort-a-string.cpp": {
+    "hash": "ec9dca302516bc21",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/minimum-operations-to-sort-a-string/",
+      "Platform": "LeetCode",
+      "Summary": "You are given a string s consisting of lowercase English letters. In one operation, you can select any substring of s that is not the entire string and sort it in non-descending alphabetical order. Return the minimum\u2026",
+      "Tags": "String",
+      "Title": "Minimum Operations to Sort a String"
+    }
+  },
   "leetcode/minimum-rotations-to-dial-a-number-i.cpp": {
     "hash": "8558d5043da73c08",
     "meta": {
