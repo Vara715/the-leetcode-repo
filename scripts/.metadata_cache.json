@@ -747,6 +747,17 @@
       "Title": "Minimum Insertions to Balance a Parentheses String"
     }
   },
+  "leetcode/minimum-operations-to-sort-a-permutation.cpp": {
+    "hash": "7dead5bcd56c2c66",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/",
+      "Platform": "LeetCode",
+      "Summary": "You are given an integer array nums of length n , where nums is a permutation of the integers from 0 to n - 1 . You may perform only the following operations: Reverse the entire array. Rotate Left by One : Move the\u2026",
+      "Tags": "Array",
+      "Title": "Minimum Operations to Sort a Permutation"
+    }
+  },
   "leetcode/minimum-operations-to-sort-a-string.cpp": {
     "hash": "ec9dca302516bc21",
     "meta": {
