@@ -120,7 +120,8 @@
     "2176774091",
     "2177737577",
     "2178497834",
-    "2179470149"
+    "2179470149",
+    "2179471485"
   ],
   "solved_timestamps": {
     "best-time-to-buy-and-sell-stock-ii": "1786536502",
@@ -222,6 +223,6 @@
     "sum-of-sortable-integers": "1792474380",
     "minimum-operations-to-sort-a-string": "1792568916",
     "minimum-operations-to-sort-a-permutation": "1792643684",
-    "maximum-k-to-sort-a-permutation": "1792741585"
+    "maximum-k-to-sort-a-permutation": "1792741737"
   }
 }

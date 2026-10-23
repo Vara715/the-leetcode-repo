@@ -671,7 +671,7 @@
     }
   },
   "leetcode/maximum-k-to-sort-a-permutation.cpp": {
-    "hash": "b31687534963871c",
+    "hash": "95c2b79eeef232e6",
     "meta": {
       "Difficulty": "Medium",
       "Link": "https://leetcode.com/problems/maximum-k-to-sort-a-permutation/",
