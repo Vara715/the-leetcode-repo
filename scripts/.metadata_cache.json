@@ -670,6 +670,17 @@
       "Title": "Maximum Alternating Sum of Squares"
     }
   },
+  "leetcode/maximum-k-to-sort-a-permutation.cpp": {
+    "hash": "b31687534963871c",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/maximum-k-to-sort-a-permutation/",
+      "Platform": "LeetCode",
+      "Summary": "You are given an integer array nums of length n , where nums is a permutation of the numbers in the range [0..n - 1] . You may swap elements at indices i and j only if nums[i] AND nums[j] == k , where AND denotes the\u2026",
+      "Tags": "Array, Bit Manipulation",
+      "Title": "Maximum K to Sort a Permutation"
+    }
+  },
   "leetcode/maximum-nesting-depth-of-the-parentheses.cpp": {
     "hash": "0b0c1dadebe405c4",
     "meta": {
