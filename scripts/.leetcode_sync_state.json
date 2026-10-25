@@ -225,6 +225,10 @@
     "minimum-operations-to-sort-a-string": "1792568916",
     "minimum-operations-to-sort-a-permutation": "1792643684",
     "maximum-k-to-sort-a-permutation": "1792741737",
-    "count-days-spent-together": "1792820306"
+    "count-days-spent-together": "1792820306",
+    "number-of-closed-islands": "1792900170",
+    "count-frequency-staircase-subarrays-i": "1792898314",
+    "maximize-sum-after-at-most-k-digit-rearrangements": "1792897219",
+    "binary-digit-score": "1792895605"
   }
 }
