@@ -98,6 +98,17 @@
       "Title": "Big Countries"
     }
   },
+  "leetcode/binary-digit-score.cpp": {
+    "hash": "76ea1da08bcda2f2",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/binary-digit-score/",
+      "Platform": "LeetCode",
+      "Summary": "You are given two integers a and b . Let s1 and s2 be the number of set bits in the binary representations of a and b , respectively. The score of these integers is defined as follows: If s1 = s2 , the score is s1 * s2\u2026",
+      "Tags": "",
+      "Title": "Binary Digit Score"
+    }
+  },
   "leetcode/can-place-flowers.cpp": {
     "hash": "ac2030bb48909687",
     "meta": {
@@ -164,6 +175,17 @@
       "Title": "Count Days Spent Together"
     }
   },
+  "leetcode/count-frequency-staircase-subarrays-i.cpp": {
+    "hash": "de6bafba867fb9a1",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/count-frequency-staircase-subarrays-i/",
+      "Platform": "LeetCode",
+      "Summary": "You are given an integer array nums . Consider the distinct values of a subarray in the order in which they first appear. If there are k distinct values, the subarray is called a frequency staircase if the first\u2026",
+      "Tags": "",
+      "Title": "Count Frequency Staircase Subarrays I"
+    }
+  },
   "leetcode/count-good-cyclic-rotations.cpp": {
     "hash": "31ecc5b545fe363e",
     "meta": {
@@ -184,6 +206,17 @@
       "Summary": "Given a binary tree root , a node X in the tree is named good if in the path from root to X there are no nodes with a value greater than X. Return the number of good nodes in the binary tree. Example 1: Example 2:\u2026",
       "Tags": "Tree, Depth-First Search, Breadth-First Search, Binary Tree",
       "Title": "Count Good Nodes in Binary Tree"
+    }
+  },
+  "leetcode/count-islands-with-total-value-divisible-by-k.cpp": {
+    "hash": "19144b0cdb51b79f",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/",
+      "Platform": "LeetCode",
+      "Summary": "You are given an m x n matrix grid and a positive integer k . An island is a group of positive integers (representing land) that are 4-directionally connected (horizontally or vertically). The total value of an island\u2026",
+      "Tags": "Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix",
+      "Title": "Count Islands With Total Value Divisible by K"
     }
   },
   "leetcode/count-primes.java": {
@@ -659,6 +692,17 @@
       "Title": "LRU Cache"
     }
   },
+  "leetcode/maximize-sum-after-at-most-k-digit-rearrangements.cpp": {
+    "hash": "3310c6ad1dfca9f1",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/maximize-sum-after-at-most-k-digit-rearrangements/",
+      "Platform": "LeetCode",
+      "Summary": "You are given an integer array nums of length n and an integer k . In one operation, you may choose any element of nums and rearrange its decimal digits in any order to form a new integer. Return the maximum possible\u2026",
+      "Tags": "",
+      "Title": "Maximize Sum After At Most K Digit Rearrangements"
+    }
+  },
   "leetcode/maximize-sum-of-squares-of-digits.cpp": {
     "hash": "0a8f683c81248a44",
     "meta": {
@@ -855,6 +899,17 @@
       "Summary": "Table: Cinema Write a solution to report the movies with an odd-numbered ID and a description that is not boring . Return the result table ordered by rating in descending order . The result format is in the following\u2026",
       "Tags": "Database",
       "Title": "Not Boring Movies"
+    }
+  },
+  "leetcode/number-of-closed-islands.cpp": {
+    "hash": "95475011b02948aa",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/number-of-closed-islands/",
+      "Platform": "LeetCode",
+      "Summary": "Given a 2D grid consists of 0s (land) and 1s (water). An island is a maximal 4-directionally connected group of 0 s and a closed island is an island totally (all left, top, right, bottom) surrounded by 1s. Return the\u2026",
+      "Tags": "Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix",
+      "Title": "Number of Closed Islands"
     }
   },
   "leetcode/number-of-unique-subjects-taught-by-each-teacher.sql": {
