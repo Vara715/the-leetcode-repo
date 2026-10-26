@@ -229,6 +229,7 @@
     "number-of-closed-islands": "1792900170",
     "count-frequency-staircase-subarrays-i": "1792898314",
     "maximize-sum-after-at-most-k-digit-rearrangements": "1792897219",
-    "binary-digit-score": "1792895605"
+    "binary-digit-score": "1792895605",
+    "count-islands-with-total-value-divisible-by-k": "1792991137"
   }
 }
