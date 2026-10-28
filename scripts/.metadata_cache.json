@@ -241,6 +241,17 @@
       "Title": "Count Rotations With Exactly K Equal Adjacent Pairs"
     }
   },
+  "leetcode/create-grid-with-exactly-one-path.cpp": {
+    "hash": "6c5b72daa11ef3bd",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/create-grid-with-exactly-one-path/",
+      "Platform": "LeetCode",
+      "Summary": "You are given two integers m and n , representing the number of rows and columns of a grid. Construct any m x n grid consisting only of the characters &#39;.&#39; and &#39;#&#39; , where: &#39;.&#39; represents a free\u2026",
+      "Tags": "",
+      "Title": "Create Grid With Exactly One Path"
+    }
+  },
   "leetcode/customer-placing-the-largest-number-of-orders.sql": {
     "hash": "c43d03cc1d4d3b6b",
     "meta": {
@@ -888,6 +899,17 @@
       "Summary": "You are given an integer array nums and an integer k . Initially, you have k units of resources. You must process the elements of nums from left to right. To process the i th element, you need nums[i] resources. If your\u2026",
       "Tags": "Array, Math, Simulation",
       "Title": "Minimum Total Cost to Process All Elements"
+    }
+  },
+  "leetcode/minimum-xor-path-in-a-grid.cpp": {
+    "hash": "095edff932db1c8f",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/minimum-xor-path-in-a-grid/",
+      "Platform": "LeetCode",
+      "Summary": "You are given a 2D integer array grid of size m * n . You start at the top-left cell (0, 0) and want to reach the bottom-right cell (m - 1, n - 1) . At each step, you may move either right or down . The cost of a path\u2026",
+      "Tags": "Array, Dynamic Programming, Bit Manipulation, Matrix",
+      "Title": "Minimum XOR Path in a Grid"
     }
   },
   "leetcode/not-boring-movies.sql": {
