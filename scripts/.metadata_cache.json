@@ -956,6 +956,17 @@
       "Title": "Number of Ways to Reorder Array to Get Same BST"
     }
   },
+  "leetcode/palindromic-path-queries-in-a-tree.cpp": {
+    "hash": "f7112a5eadd71d7f",
+    "meta": {
+      "Difficulty": "Hard",
+      "Link": "https://leetcode.com/problems/palindromic-path-queries-in-a-tree/",
+      "Platform": "LeetCode",
+      "Summary": "You are given an undirected tree with n nodes labeled 0 to n - 1 . This is represented by a 2D array edges of length n - 1 , where edges[i] = [u i , v i ] indicates an undirected edge between nodes u i and v i . You are\u2026",
+      "Tags": "Array, String, Divide and Conquer, Bit Manipulation, Tree, Depth-First Search, Binary Indexed Tree, Segment Tree",
+      "Title": "Palindromic Path Queries in a Tree"
+    }
+  },
   "leetcode/path-sum-ii.cpp": {
     "hash": "a5351d0cca3c2b15",
     "meta": {
