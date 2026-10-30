@@ -1132,6 +1132,17 @@
       "Title": "Shortest Common Supersequence "
     }
   },
+  "leetcode/shortest-path-with-at-most-k-consecutive-identical-characters.cpp": {
+    "hash": "302c14391cecb71f",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/shortest-path-with-at-most-k-consecutive-identical-characters/",
+      "Platform": "LeetCode",
+      "Summary": "You are given an integer n representing the number of nodes in a directed weighted graph, numbered from 0 to n - 1 . This is represented by a 2D integer array edges , where edges[i] = [u i , v i , w i ] represents a\u2026",
+      "Tags": "String, Graph Theory, Heap (Priority Queue), Shortest Path",
+      "Title": "Shortest Path With At Most K Consecutive Identical Characters"
+    }
+  },
   "leetcode/smallest-index-with-digit-sum-equal-to-index.cpp": {
     "hash": "65724977d68aa138",
     "meta": {

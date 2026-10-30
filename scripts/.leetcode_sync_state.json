@@ -130,7 +130,9 @@
     "2181915878",
     "2182970583",
     "2183665671",
-    "2184499576"
+    "2184499576",
+    "2185188842",
+    "2185280190"
   ],
   "solved_timestamps": {
     "best-time-to-buy-and-sell-stock-ii": "1786536502",
@@ -235,12 +237,13 @@
     "maximum-k-to-sort-a-permutation": "1792741737",
     "count-days-spent-together": "1792820306",
     "number-of-closed-islands": "1792900170",
-    "count-frequency-staircase-subarrays-i": "1792898314",
+    "count-frequency-staircase-subarrays-i": "1793341295",
     "maximize-sum-after-at-most-k-digit-rearrangements": "1792897219",
     "binary-digit-score": "1792895605",
     "count-islands-with-total-value-divisible-by-k": "1792991137",
     "minimum-xor-path-in-a-grid": "1793167857",
     "create-grid-with-exactly-one-path": "1793094697",
-    "palindromic-path-queries-in-a-tree": "1793256009"
+    "palindromic-path-queries-in-a-tree": "1793256009",
+    "shortest-path-with-at-most-k-consecutive-identical-characters": "1793332335"
   }
 }
