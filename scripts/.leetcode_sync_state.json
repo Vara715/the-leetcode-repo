@@ -132,7 +132,8 @@
     "2183665671",
     "2184499576",
     "2185188842",
-    "2185280190"
+    "2185280190",
+    "2185944782"
   ],
   "solved_timestamps": {
     "best-time-to-buy-and-sell-stock-ii": "1786536502",
@@ -244,6 +245,7 @@
     "minimum-xor-path-in-a-grid": "1793167857",
     "create-grid-with-exactly-one-path": "1793094697",
     "palindromic-path-queries-in-a-tree": "1793256009",
-    "shortest-path-with-at-most-k-consecutive-identical-characters": "1793332335"
+    "shortest-path-with-at-most-k-consecutive-identical-characters": "1793332335",
+    "twisted-mirror-path-count": "1793423741"
   }
 }

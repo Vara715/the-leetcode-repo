@@ -1264,6 +1264,17 @@
       "Title": "Three Fibonacci Sum"
     }
   },
+  "leetcode/twisted-mirror-path-count.cpp": {
+    "hash": "a8b227894724993d",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/twisted-mirror-path-count/",
+      "Platform": "LeetCode",
+      "Summary": "Given an m x n binary grid grid where: grid[i][j] == 0 represents an empty cell, and grid[i][j] == 1 represents a mirror. A robot starts at the top-left corner of the grid (0, 0) and wants to reach the bottom-right\u2026",
+      "Tags": "Array, Dynamic Programming, Matrix",
+      "Title": "Twisted Mirror Path Count"
+    }
+  },
   "leetcode/valid-palindrome-ii.java": {
     "hash": "3765b8b82bc1ef24",
     "meta": {
