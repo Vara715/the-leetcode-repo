@@ -780,6 +780,17 @@
       "Title": "Maximum Twin Sum of a Linked List"
     }
   },
+  "leetcode/minimize-the-maximum-value-of-gcd-connected-array.cpp": {
+    "hash": "eb4f800a24957834",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/minimize-the-maximum-value-of-gcd-connected-array/",
+      "Platform": "LeetCode",
+      "Summary": "You are given three integers n , index , and value . An integer array nums of length n is called GCD-Connected if: nums[i] 0 for 0 = i = n - 1 . nums[i] nums[i + 1] for 0 = i = n - 2 . nums[index] = value . gcd\u2026",
+      "Tags": "",
+      "Title": "Minimize the Maximum Value of GCD-Connected Array"
+    }
+  },
   "leetcode/minimum-add-to-make-parentheses-valid.cpp": {
     "hash": "7b7eb0cef054d050",
     "meta": {
@@ -824,6 +835,17 @@
       "Title": "Minimum Insertions to Balance a Parentheses String"
     }
   },
+  "leetcode/minimum-moves-to-equal-array-elements.cpp": {
+    "hash": "5995c33c1d86cc85",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements/",
+      "Platform": "LeetCode",
+      "Summary": "Given an integer array nums of size n , return the minimum number of moves required to make all array elements equal . In one move, you can increment n - 1 elements of the array by 1 . Example 1: Example 2: Constraints:\u2026",
+      "Tags": "Array, Math",
+      "Title": "Minimum Moves to Equal Array Elements"
+    }
+  },
   "leetcode/minimum-operations-to-sort-a-permutation.cpp": {
     "hash": "7dead5bcd56c2c66",
     "meta": {
@@ -844,6 +866,17 @@
       "Summary": "You are given a string s consisting of lowercase English letters. In one operation, you can select any substring of s that is not the entire string and sort it in non-descending alphabetical order. Return the minimum\u2026",
       "Tags": "String",
       "Title": "Minimum Operations to Sort a String"
+    }
+  },
+  "leetcode/minimum-operations-to-sort-with-locked-indices.cpp": {
+    "hash": "2722b4f9171c8375",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/minimum-operations-to-sort-with-locked-indices/",
+      "Platform": "LeetCode",
+      "Summary": "You are given an integer array nums of length n , where nums is a permutation of the integers in the range [1, n] . You are also given a binary array locked of length n and an integer k . locked[i] = 1 means index i is\u2026",
+      "Tags": "",
+      "Title": "Minimum Operations to Sort With Locked Indices"
     }
   },
   "leetcode/minimum-rotations-to-dial-a-number-i.cpp": {
@@ -899,6 +932,17 @@
       "Summary": "You are given an integer array nums and an integer k . Initially, you have k units of resources. You must process the elements of nums from left to right. To process the i th element, you need nums[i] resources. If your\u2026",
       "Tags": "Array, Math, Simulation",
       "Title": "Minimum Total Cost to Process All Elements"
+    }
+  },
+  "leetcode/minimum-value-of-merged-integers.cpp": {
+    "hash": "31a840bb08e2baab",
+    "meta": {
+      "Difficulty": "Easy",
+      "Link": "https://leetcode.com/problems/minimum-value-of-merged-integers/",
+      "Platform": "LeetCode",
+      "Summary": "Find the smallest concatenated number formed by",
+      "Tags": "",
+      "Title": "Minimum Value of Merged Integers"
     }
   },
   "leetcode/minimum-xor-path-in-a-grid.cpp": {
