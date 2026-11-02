@@ -835,6 +835,17 @@
       "Title": "Minimum Insertions to Balance a Parentheses String"
     }
   },
+  "leetcode/minimum-moves-to-equal-array-elements-ii.cpp": {
+    "hash": "5aa293be8b7993e2",
+    "meta": {
+      "Difficulty": "Medium",
+      "Link": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/",
+      "Platform": "LeetCode",
+      "Summary": "Given an integer array nums of size n , return the minimum number of moves required to make all array elements equal . In one move, you can increment or decrement an element of the array by 1 . Test cases are designed\u2026",
+      "Tags": "Array, Math, Sorting",
+      "Title": "Minimum Moves to Equal Array Elements II"
+    }
+  },
   "leetcode/minimum-moves-to-equal-array-elements.cpp": {
     "hash": "5995c33c1d86cc85",
     "meta": {
