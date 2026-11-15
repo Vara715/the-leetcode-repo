@@ -259,6 +259,7 @@
     "minimum-moves-to-equal-array-elements-ii": "1793611212",
     "minimum-moves-to-equal-array-elements-iii": "1793685393",
     "count-zero-request-servers": "1793959641",
-    "minimum-positive-sum-subarray": "1794638031"
+    "minimum-positive-sum-subarray": "1794638031",
+    "number-of-sub-arrays-with-odd-sum": "1794717140"
   }
 }
