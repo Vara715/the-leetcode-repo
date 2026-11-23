@@ -261,6 +261,7 @@
     "count-zero-request-servers": "1793959641",
     "minimum-positive-sum-subarray": "1794638031",
     "number-of-sub-arrays-with-odd-sum": "1794717140",
-    "calculate-digit-sum-of-a-string": "1794841527"
+    "calculate-digit-sum-of-a-string": "1794841527",
+    "product-of-the-last-k-numbers": "1795405262"
   }
 }
